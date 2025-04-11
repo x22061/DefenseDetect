@@ -1,0 +1,16 @@
+# Python virtual environments
+venv/
+.env/
+.venv/
+.DS_Store
+
+# 動画ファイルを無視
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# 画像ファイルを無視
+*.png
+*.jpg
+*.jpeg
