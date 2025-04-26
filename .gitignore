@@ -10,7 +10,3 @@ venv/
 *.avi
 *.mkv
 
-# 画像ファイルを無視
-*.png
-*.jpg
-*.jpeg
