@@ -264,6 +264,12 @@ class TrajectoryViewerWithFormation:
                 "0-6_left": [(0.2, 0.175), (0.3, 0.3), (0.35, 0.4), (0.35, 0.6), (0.3, 0.7),(0.2,0.825)],
                 "1-5_right": [(0.8, 0.175), (0.7, 0.3), (0.65, 0.5), (0.5, 0.5), (0.7, 0.7), (0.8, 0.825)],
                 "1-5_left": [(0.2, 0.175), (0.3, 0.3), (0.35, 0.5), (0.5, 0.5), (0.3, 0.7), (0.2, 0.825)],
+                "1-2-3_right": [(0.75, 0.225), (0.575, 0.35), (0.675, 0.5), (0.5, 0.5), (0.575, 0.65), (0.75, 0.775)],
+                "1-2-3_left": [(0.25, 0.225), (0.425, 0.35), (0.325, 0.5), (0.5, 0.5), (0.425, 0.65), (0.25, 0.775)],
+                "3-3_right": [(0.5, 0.3), (0.7, 0.3), (0.675, 0.5), (0.5, 0.5), (0.5, 0.7), (0.7, 0.7)],
+                "3-3_left": [(0.5, 0.3), (0.3, 0.3), (0.325, 0.5), (0.5, 0.5), (0.5, 0.7), (0.3, 0.7)],
+                "2-4_right": [(0.7,0.3), (0.5,0.4), (0.675,0.4), (0.5,0.6), (0.675,0.6), (0.7,0.7)],
+                "2-4_left": [(0.3,0.3), (0.5,0.4), (0.325,0.4), (0.5,0.6), (0.325,0.6), (0.3,0.7)],
             }
 
             closest_formation = None
@@ -280,10 +286,6 @@ class TrajectoryViewerWithFormation:
 
             if closest_formation:
                 self.phase_formations.append(closest_formation)  # Track formation for the current phase
-                
-                # フォーメーションの理想位置を描画 (コメント化)
-                # for ideal_position in formation_positions[closest_formation]:
-                #     self.ax.scatter(ideal_position[0], ideal_position[1], color="green", marker="x", s=100, label=closest_formation)
                 
                 # フォーメーションの理想位置を緑の丸で描画
                 for ideal_position in formation_positions[closest_formation]:
