@@ -1,0 +1,426 @@
+開始フレーム,終了フレーム,フォーメーション,方向,信頼度,内訳
+18930,19585,0-6 Formation,right,1.0,"0-6 Formation: 447, 1-5 Formation: 175, 2-4 Formation: 18, 3-3 Formation: 3"
+19700,19702,1-5 Formation,left,1.0,1-5 Formation: 3
+19705,19805,1-5 Formation,left,1.0,"1-5 Formation: 57, 0-6 Formation: 24, 2-4 Formation: 7"
+19806,19806,1-5 Formation,right,1.0,1-5 Formation: 1
+19807,20425,1-5 Formation,left,1.0,"1-5 Formation: 398, 0-6 Formation: 136, 2-4 Formation: 79, 3-3 Formation: 6"
+20482,20827,1-5 Formation,left,1.0,"1-5 Formation: 199, 0-6 Formation: 57, 2-4 Formation: 42"
+21299,21611,0-6 Formation,right,1.0,"0-6 Formation: 218, 1-5 Formation: 43, 2-4 Formation: 31, 3-3 Formation: 21"
+21790,21831,0-6 Formation,right,1.0,0-6 Formation: 2
+22119,22241,1-5 Formation,left,1.0,"0-6 Formation: 50, 1-5 Formation: 71, 2-4 Formation: 2"
+22242,22242,2-4 Formation,right,1.0,2-4 Formation: 1
+22243,22294,1-5 Formation,left,1.0,1-5 Formation: 52
+22295,22295,0-6 Formation,right,1.0,0-6 Formation: 1
+22296,22491,1-5 Formation,left,1.0,"1-5 Formation: 129, 2-4 Formation: 57, 3-3 Formation: 5"
+22794,22804,2-4 Formation,right,1.0,2-4 Formation: 9
+22916,23185,0-6 Formation,right,1.0,"0-6 Formation: 214, 1-5 Formation: 12, 2-4 Formation: 18, 3-3 Formation: 3, Unknown Formation: 13"
+23354,23354,1-5 Formation,right,1.0,1-5 Formation: 1
+23361,23375,0-6 Formation,right,1.0,"0-6 Formation: 8, 1-5 Formation: 1"
+23543,23561,0-6 Formation,right,1.0,0-6 Formation: 6
+23562,23562,0-6 Formation,left,1.0,0-6 Formation: 1
+23563,23563,0-6 Formation,right,1.0,0-6 Formation: 1
+23564,23565,0-6 Formation,left,1.0,0-6 Formation: 2
+23566,23567,0-6 Formation,right,1.0,0-6 Formation: 2
+23568,23568,0-6 Formation,left,1.0,0-6 Formation: 1
+23569,23574,0-6 Formation,right,1.0,0-6 Formation: 6
+23575,23575,1-5 Formation,left,1.0,1-5 Formation: 1
+23576,23576,0-6 Formation,right,1.0,0-6 Formation: 1
+23577,23579,1-5 Formation,left,1.0,1-5 Formation: 3
+23580,23582,0-6 Formation,right,1.0,0-6 Formation: 3
+23583,23583,1-5 Formation,left,1.0,1-5 Formation: 1
+23584,23585,0-6 Formation,right,1.0,0-6 Formation: 2
+23586,23590,1-5 Formation,left,1.0,1-5 Formation: 5
+23591,23591,0-6 Formation,right,1.0,0-6 Formation: 1
+23592,23595,1-5 Formation,left,1.0,1-5 Formation: 4
+23596,23597,0-6 Formation,right,1.0,0-6 Formation: 2
+23598,23600,1-5 Formation,left,1.0,1-5 Formation: 3
+23601,23601,0-6 Formation,right,1.0,0-6 Formation: 1
+23602,23602,1-5 Formation,left,1.0,1-5 Formation: 1
+23603,23604,0-6 Formation,right,1.0,0-6 Formation: 2
+23605,23606,1-5 Formation,left,1.0,1-5 Formation: 1
+23607,23607,0-6 Formation,right,1.0,0-6 Formation: 1
+23613,23613,0-6 Formation,right,1.0,0-6 Formation: 1
+23614,23618,1-5 Formation,left,1.0,1-5 Formation: 5
+23619,23619,0-6 Formation,right,1.0,0-6 Formation: 1
+23620,23620,1-5 Formation,left,1.0,1-5 Formation: 1
+23623,23668,1-5 Formation,left,1.0,"1-5 Formation: 42, 0-6 Formation: 4"
+23669,23669,0-6 Formation,right,1.0,0-6 Formation: 1
+23670,23676,1-5 Formation,left,1.0,1-5 Formation: 7
+23677,23677,0-6 Formation,right,1.0,0-6 Formation: 1
+23678,23686,1-5 Formation,left,1.0,1-5 Formation: 9
+23687,23687,1-5 Formation,right,1.0,1-5 Formation: 1
+23688,23688,1-5 Formation,left,1.0,1-5 Formation: 1
+23689,23689,1-5 Formation,right,1.0,1-5 Formation: 1
+23690,23692,1-5 Formation,left,1.0,1-5 Formation: 3
+23693,23693,0-6 Formation,right,1.0,0-6 Formation: 1
+23694,23697,1-5 Formation,left,1.0,1-5 Formation: 4
+23698,23698,0-6 Formation,right,1.0,0-6 Formation: 1
+23699,23715,1-5 Formation,left,1.0,1-5 Formation: 17
+23720,23721,1-5 Formation,left,1.0,1-5 Formation: 2
+23726,23726,1-5 Formation,left,1.0,1-5 Formation: 1
+23733,23733,0-6 Formation,left,1.0,0-6 Formation: 1
+23738,23741,0-6 Formation,left,1.0,0-6 Formation: 4
+23744,23745,0-6 Formation,left,1.0,"0-6 Formation: 1, 1-5 Formation: 1"
+23751,23751,1-5 Formation,left,1.0,1-5 Formation: 1
+23767,23772,1-5 Formation,left,1.0,1-5 Formation: 6
+23773,23776,0-6 Formation,right,1.0,0-6 Formation: 4
+23777,23782,0-6 Formation,left,1.0,"1-5 Formation: 2, 0-6 Formation: 4"
+23785,23791,0-6 Formation,left,1.0,0-6 Formation: 7
+23794,23796,0-6 Formation,left,1.0,0-6 Formation: 3
+23800,23801,0-6 Formation,left,1.0,0-6 Formation: 2
+23804,23804,0-6 Formation,left,1.0,0-6 Formation: 1
+23807,24083,2-4 Formation,left,1.0,"1-5 Formation: 58, 2-4 Formation: 148, 3-3 Formation: 53, Unknown Formation: 18"
+24084,24084,0-6 Formation,right,1.0,0-6 Formation: 1
+24085,24100,2-4 Formation,left,1.0,"2-4 Formation: 13, 3-3 Formation: 2, 1-5 Formation: 1"
+24146,24285,1-5 Formation,left,1.0,"1-5 Formation: 104, 0-6 Formation: 10, 2-4 Formation: 2"
+24286,24286,0-6 Formation,right,1.0,0-6 Formation: 1
+24287,24340,1-5 Formation,left,1.0,1-5 Formation: 54
+24341,24341,0-6 Formation,right,1.0,0-6 Formation: 1
+24342,24342,1-5 Formation,left,1.0,1-5 Formation: 1
+24343,24343,0-6 Formation,right,1.0,0-6 Formation: 1
+24344,24383,1-5 Formation,left,1.0,"1-5 Formation: 32, 0-6 Formation: 8"
+24384,24384,0-6 Formation,right,1.0,0-6 Formation: 1
+24385,24496,1-5 Formation,left,1.0,1-5 Formation: 112
+24657,24917,1-5 Formation,left,1.0,"2-4 Formation: 112, 3-3 Formation: 16, 1-5 Formation: 125, 0-6 Formation: 3"
+24920,24926,0-6 Formation,left,1.0,0-6 Formation: 7
+24931,24932,0-6 Formation,left,1.0,0-6 Formation: 2
+24949,25848,0-6 Formation,right,1.0,"0-6 Formation: 594, 1-5 Formation: 150, 2-4 Formation: 56, 3-3 Formation: 62, Unknown Formation: 10"
+25910,25941,0-6 Formation,right,1.0,0-6 Formation: 10
+26089,26090,0-6 Formation,left,1.0,0-6 Formation: 2
+26120,26134,0-6 Formation,right,1.0,0-6 Formation: 9
+26276,26567,1-5 Formation,left,1.0,"1-5 Formation: 175, 2-4 Formation: 27, 0-6 Formation: 14, 3-3 Formation: 22, Unknown Formation: 4"
+26744,26978,1-5 Formation,right,1.0,"0-6 Formation: 73, 1-5 Formation: 88, 2-4 Formation: 55, 3-3 Formation: 16, Unknown Formation: 3"
+26987,27032,2-4 Formation,left,1.0,"2-4 Formation: 29, 1-5 Formation: 1"
+27485,27496,2-4 Formation,right,1.0,2-4 Formation: 12
+27499,27500,2-4 Formation,right,1.0,2-4 Formation: 2
+27503,27506,2-4 Formation,right,1.0,"2-4 Formation: 3, 1-5 Formation: 1"
+27524,27524,0-6 Formation,right,1.0,0-6 Formation: 1
+27527,27530,0-6 Formation,right,1.0,0-6 Formation: 2
+27759,27761,1-5 Formation,left,1.0,1-5 Formation: 3
+27764,27769,1-5 Formation,left,1.0,1-5 Formation: 6
+27772,27969,1-5 Formation,left,1.0,"1-5 Formation: 146, 2-4 Formation: 23, 3-3 Formation: 24, Unknown Formation: 5"
+28382,28385,0-6 Formation,left,1.0,0-6 Formation: 4
+28390,28391,0-6 Formation,left,1.0,0-6 Formation: 2
+28394,28397,0-6 Formation,left,1.0,0-6 Formation: 4
+28400,28400,0-6 Formation,left,1.0,0-6 Formation: 1
+28403,28414,0-6 Formation,left,1.0,0-6 Formation: 12
+28417,28417,0-6 Formation,left,1.0,0-6 Formation: 1
+28420,28441,0-6 Formation,left,1.0,0-6 Formation: 18
+28444,28524,0-6 Formation,left,1.0,0-6 Formation: 81
+28586,28590,0-6 Formation,left,1.0,0-6 Formation: 5
+28594,28625,0-6 Formation,left,1.0,0-6 Formation: 31
+28644,28647,0-6 Formation,left,1.0,0-6 Formation: 4
+28651,28667,0-6 Formation,left,1.0,0-6 Formation: 14
+28670,28672,0-6 Formation,left,1.0,0-6 Formation: 3
+28675,28675,0-6 Formation,left,1.0,0-6 Formation: 1
+28679,28692,0-6 Formation,left,1.0,0-6 Formation: 14
+29076,29677,0-6 Formation,right,1.0,"0-6 Formation: 265, 1-5 Formation: 205, 2-4 Formation: 81, 3-3 Formation: 35, Unknown Formation: 4"
+30019,30055,1-5 Formation,left,1.0,1-5 Formation: 37
+30058,30163,0-6 Formation,left,1.0,"1-5 Formation: 45, 0-6 Formation: 49, 2-4 Formation: 12"
+30168,30169,1-5 Formation,left,1.0,1-5 Formation: 2
+30173,30173,1-5 Formation,left,1.0,1-5 Formation: 1
+30176,30183,1-5 Formation,left,1.0,1-5 Formation: 8
+30187,30190,1-5 Formation,left,1.0,1-5 Formation: 4
+30193,30195,0-6 Formation,left,1.0,0-6 Formation: 3
+30198,30204,0-6 Formation,left,1.0,0-6 Formation: 7
+30207,30217,0-6 Formation,left,1.0,0-6 Formation: 11
+30220,30227,1-5 Formation,left,1.0,"0-6 Formation: 1, 1-5 Formation: 7"
+30230,30234,1-5 Formation,left,1.0,1-5 Formation: 5
+30237,30558,1-5 Formation,left,1.0,"1-5 Formation: 251, 2-4 Formation: 38, 3-3 Formation: 1, 0-6 Formation: 2"
+30559,30559,0-6 Formation,right,1.0,0-6 Formation: 1
+30676,31287,0-6 Formation,right,1.0,"1-5 Formation: 106, 0-6 Formation: 421, 2-4 Formation: 6, 3-3 Formation: 17, Unknown Formation: 13"
+31377,31381,2-4 Formation,right,1.0,2-4 Formation: 5
+31458,31678,0-6 Formation,right,1.0,"0-6 Formation: 161, 1-5 Formation: 20, 2-4 Formation: 21, 3-3 Formation: 8, Unknown Formation: 11"
+31863,31878,0-6 Formation,right,1.0,"0-6 Formation: 8, 1-5 Formation: 3"
+32127,32129,2-4 Formation,left,1.0,2-4 Formation: 3
+33105,33105,1-5 Formation,left,1.0,1-5 Formation: 1
+33126,33126,0-6 Formation,left,1.0,0-6 Formation: 1
+33127,33128,0-6 Formation,right,1.0,0-6 Formation: 1
+33129,33130,0-6 Formation,left,1.0,0-6 Formation: 2
+33142,33142,3-3 Formation,left,1.0,3-3 Formation: 1
+33835,33867,1-5 Formation,left,1.0,1-5 Formation: 33
+33926,33926,0-6 Formation,right,1.0,0-6 Formation: 1
+33927,33927,0-6 Formation,left,1.0,0-6 Formation: 1
+33928,33932,0-6 Formation,right,1.0,0-6 Formation: 5
+33933,33933,0-6 Formation,left,1.0,0-6 Formation: 1
+33934,33935,0-6 Formation,right,1.0,0-6 Formation: 2
+33936,33936,0-6 Formation,left,1.0,0-6 Formation: 1
+33937,33938,0-6 Formation,right,1.0,"0-6 Formation: 1, 1-5 Formation: 1"
+33939,33939,0-6 Formation,left,1.0,0-6 Formation: 1
+33940,33940,1-5 Formation,right,1.0,1-5 Formation: 1
+33941,33941,1-5 Formation,left,1.0,1-5 Formation: 1
+33942,33942,1-5 Formation,right,1.0,1-5 Formation: 1
+33943,33948,1-5 Formation,left,1.0,1-5 Formation: 6
+33949,33953,1-5 Formation,right,1.0,1-5 Formation: 5
+33954,33957,2-4 Formation,left,1.0,2-4 Formation: 4
+33958,33958,1-5 Formation,right,1.0,1-5 Formation: 1
+33959,33959,2-4 Formation,left,1.0,2-4 Formation: 1
+33960,33962,1-5 Formation,right,1.0,1-5 Formation: 3
+33963,33963,2-4 Formation,left,1.0,2-4 Formation: 1
+33964,33964,1-5 Formation,right,1.0,1-5 Formation: 1
+33965,33966,1-5 Formation,left,1.0,1-5 Formation: 1
+33967,33967,1-5 Formation,right,1.0,1-5 Formation: 1
+33970,33970,0-6 Formation,right,1.0,0-6 Formation: 1
+33974,33974,1-5 Formation,right,1.0,1-5 Formation: 1
+33978,33982,1-5 Formation,right,1.0,1-5 Formation: 5
+33987,33989,1-5 Formation,right,1.0,1-5 Formation: 3
+33992,34017,1-5 Formation,right,1.0,1-5 Formation: 26
+34181,34186,1-5 Formation,right,1.0,1-5 Formation: 3
+34209,34227,1-5 Formation,right,1.0,"1-5 Formation: 12, 2-4 Formation: 7"
+34402,34473,0-6 Formation,right,1.0,"0-6 Formation: 35, 1-5 Formation: 7"
+34476,34501,0-6 Formation,right,1.0,"0-6 Formation: 25, 1-5 Formation: 1"
+34504,34531,1-5 Formation,right,1.0,"0-6 Formation: 9, 1-5 Formation: 19"
+34534,34623,1-5 Formation,right,1.0,"0-6 Formation: 26, 1-5 Formation: 64"
+34626,34626,2-4 Formation,right,1.0,2-4 Formation: 1
+34631,34695,1-5 Formation,right,1.0,"1-5 Formation: 61, 0-6 Formation: 4"
+34698,34702,1-5 Formation,right,1.0,"1-5 Formation: 4, 0-6 Formation: 1"
+34706,34709,3-3 Formation,right,1.0,"1-5 Formation: 1, 3-3 Formation: 3"
+34741,34742,2-4 Formation,right,1.0,2-4 Formation: 2
+34745,34745,1-5 Formation,right,1.0,1-5 Formation: 1
+34748,34778,2-4 Formation,right,1.0,"1-5 Formation: 8, 2-4 Formation: 22, 3-3 Formation: 1"
+34781,34787,2-4 Formation,right,1.0,"2-4 Formation: 6, 3-3 Formation: 1"
+34790,34792,2-4 Formation,right,1.0,"3-3 Formation: 1, 2-4 Formation: 2"
+34805,34818,1-5 Formation,right,1.0,1-5 Formation: 10
+34821,34823,0-6 Formation,right,1.0,0-6 Formation: 3
+34826,34831,0-6 Formation,right,1.0,"0-6 Formation: 3, 1-5 Formation: 1"
+34839,34846,0-6 Formation,right,1.0,"0-6 Formation: 4, 1-5 Formation: 4"
+34849,34852,0-6 Formation,right,1.0,"0-6 Formation: 3, 1-5 Formation: 1"
+34857,34866,1-5 Formation,right,1.0,"1-5 Formation: 5, 0-6 Formation: 4, 2-4 Formation: 1"
+34870,34882,1-5 Formation,right,1.0,"1-5 Formation: 10, 0-6 Formation: 2, 2-4 Formation: 1"
+34889,34889,2-4 Formation,right,1.0,2-4 Formation: 1
+34893,34900,1-5 Formation,right,1.0,"1-5 Formation: 4, 2-4 Formation: 4"
+34903,34906,2-4 Formation,right,1.0,"1-5 Formation: 1, 2-4 Formation: 3"
+34912,34916,2-4 Formation,right,1.0,"2-4 Formation: 4, 1-5 Formation: 1"
+34919,34937,0-6 Formation,right,1.0,"2-4 Formation: 2, 0-6 Formation: 11, 1-5 Formation: 6"
+35044,35066,0-6 Formation,right,1.0,"0-6 Formation: 9, 1-5 Formation: 2, 2-4 Formation: 1"
+35069,35069,0-6 Formation,right,1.0,0-6 Formation: 1
+35072,35174,0-6 Formation,right,1.0,"0-6 Formation: 77, 1-5 Formation: 25, 2-4 Formation: 1"
+35179,35179,1-5 Formation,right,1.0,1-5 Formation: 1
+35244,35298,0-6 Formation,right,1.0,"0-6 Formation: 35, 1-5 Formation: 20"
+35301,35364,0-6 Formation,right,1.0,"0-6 Formation: 39, 1-5 Formation: 24"
+35368,35377,1-5 Formation,right,1.0,"1-5 Formation: 8, 2-4 Formation: 2"
+35380,35383,2-4 Formation,right,1.0,"1-5 Formation: 1, 2-4 Formation: 3"
+35386,35392,1-5 Formation,right,1.0,1-5 Formation: 7
+35395,35396,0-6 Formation,right,1.0,"0-6 Formation: 1, 1-5 Formation: 1"
+35400,35418,1-5 Formation,right,1.0,"1-5 Formation: 5, 0-6 Formation: 3"
+35421,35421,0-6 Formation,right,1.0,0-6 Formation: 1
+35495,35495,1-5 Formation,left,1.0,1-5 Formation: 1
+35527,35527,2-4 Formation,left,1.0,2-4 Formation: 1
+35645,35645,0-6 Formation,left,1.0,0-6 Formation: 1
+35866,35866,0-6 Formation,left,1.0,0-6 Formation: 1
+35869,36354,1-5 Formation,left,1.0,"0-6 Formation: 63, 1-5 Formation: 316, 2-4 Formation: 57, 3-3 Formation: 36, Unknown Formation: 4"
+36355,36355,2-4 Formation,right,1.0,2-4 Formation: 1
+36356,36359,1-5 Formation,left,1.0,1-5 Formation: 4
+36360,36363,3-3 Formation,right,1.0,"2-4 Formation: 1, 3-3 Formation: 3"
+36364,36364,2-4 Formation,left,1.0,2-4 Formation: 1
+36365,36369,2-4 Formation,right,1.0,2-4 Formation: 1
+36375,36377,0-6 Formation,right,1.0,0-6 Formation: 2
+36380,36894,1-5 Formation,right,1.0,"0-6 Formation: 183, 1-5 Formation: 267, 2-4 Formation: 20"
+37029,37184,1-5 Formation,right,1.0,"0-6 Formation: 14, 1-5 Formation: 51, 2-4 Formation: 14, 3-3 Formation: 17, Unknown Formation: 25"
+37488,37517,0-6 Formation,right,1.0,0-6 Formation: 4
+37652,37652,1-5 Formation,right,1.0,1-5 Formation: 1
+37674,37699,1-5 Formation,right,1.0,"0-6 Formation: 4, 1-5 Formation: 14, 2-4 Formation: 2, 3-3 Formation: 1"
+37759,37951,1-5 Formation,left,1.0,"1-5 Formation: 63, 2-4 Formation: 55, 3-3 Formation: 25"
+37952,37952,1-5 Formation,right,1.0,1-5 Formation: 1
+37953,37953,1-5 Formation,left,1.0,1-5 Formation: 1
+37960,37960,0-6 Formation,right,1.0,0-6 Formation: 1
+37961,37963,0-6 Formation,left,1.0,0-6 Formation: 3
+37964,37964,1-5 Formation,right,1.0,1-5 Formation: 1
+37965,38203,0-6 Formation,left,1.0,"0-6 Formation: 84, 1-5 Formation: 48, 2-4 Formation: 54, 3-3 Formation: 29, Unknown Formation: 1"
+38751,39039,1-5 Formation,right,1.0,"1-5 Formation: 198, 2-4 Formation: 14, 0-6 Formation: 7, 3-3 Formation: 11, Unknown Formation: 18"
+39525,39525,1-5 Formation,left,1.0,1-5 Formation: 1
+40124,40125,0-6 Formation,right,1.0,0-6 Formation: 1
+40134,40137,0-6 Formation,right,1.0,0-6 Formation: 4
+40142,40142,0-6 Formation,right,1.0,0-6 Formation: 1
+40145,40146,0-6 Formation,right,1.0,0-6 Formation: 2
+40152,40153,0-6 Formation,right,1.0,0-6 Formation: 2
+40159,40169,0-6 Formation,left,1.0,0-6 Formation: 11
+40173,40175,0-6 Formation,left,1.0,0-6 Formation: 3
+40179,40189,0-6 Formation,left,1.0,0-6 Formation: 11
+40192,40667,1-5 Formation,left,1.0,"0-6 Formation: 138, 1-5 Formation: 217, 2-4 Formation: 40, 3-3 Formation: 22, Unknown Formation: 6"
+40668,40668,2-4 Formation,right,1.0,2-4 Formation: 1
+40669,40670,2-4 Formation,left,1.0,"2-4 Formation: 1, 3-3 Formation: 1"
+40671,40671,1-5 Formation,right,1.0,1-5 Formation: 1
+40672,40674,1-5 Formation,left,1.0,"1-5 Formation: 2, 0-6 Formation: 1"
+40675,40818,1-5 Formation,right,1.0,"2-4 Formation: 1, 1-5 Formation: 29, 0-6 Formation: 6"
+41206,41580,0-6 Formation,left,1.0,"0-6 Formation: 137, 1-5 Formation: 116, 2-4 Formation: 47, 3-3 Formation: 21, Unknown Formation: 23"
+41581,41584,2-4 Formation,right,1.0,2-4 Formation: 2
+41949,41970,0-6 Formation,right,1.0,0-6 Formation: 16
+41978,41985,0-6 Formation,right,1.0,0-6 Formation: 1
+42281,42298,3-3 Formation,left,1.0,3-3 Formation: 18
+42575,42575,2-4 Formation,right,1.0,2-4 Formation: 1
+43081,43081,0-6 Formation,right,1.0,0-6 Formation: 1
+43084,43085,1-5 Formation,right,1.0,1-5 Formation: 2
+43377,43379,0-6 Formation,right,1.0,0-6 Formation: 3
+43382,43405,0-6 Formation,right,1.0,0-6 Formation: 6
+43527,43912,0-6 Formation,left,1.0,"0-6 Formation: 124, 1-5 Formation: 118, 2-4 Formation: 52, 3-3 Formation: 52, Unknown Formation: 14"
+44261,44263,1-5 Formation,right,1.0,1-5 Formation: 3
+44266,44611,1-5 Formation,right,1.0,"1-5 Formation: 163, 2-4 Formation: 88, 0-6 Formation: 43, Unknown Formation: 3, 3-3 Formation: 8"
+44982,44994,0-6 Formation,right,1.0,0-6 Formation: 12
+44998,44998,0-6 Formation,right,1.0,0-6 Formation: 1
+45004,45048,0-6 Formation,right,1.0,0-6 Formation: 45
+45049,45049,0-6 Formation,left,1.0,0-6 Formation: 1
+45050,45093,1-5 Formation,right,1.0,"0-6 Formation: 14, 1-5 Formation: 30"
+45094,45094,0-6 Formation,left,1.0,0-6 Formation: 1
+45095,45102,0-6 Formation,right,1.0,"1-5 Formation: 1, 0-6 Formation: 7"
+45103,45103,0-6 Formation,left,1.0,0-6 Formation: 1
+45104,45105,0-6 Formation,right,1.0,0-6 Formation: 2
+45106,45106,0-6 Formation,left,1.0,0-6 Formation: 1
+45107,45112,0-6 Formation,right,1.0,"0-6 Formation: 3, 1-5 Formation: 3"
+45113,45113,0-6 Formation,left,1.0,0-6 Formation: 1
+45114,45116,1-5 Formation,right,1.0,1-5 Formation: 3
+45117,45119,0-6 Formation,left,1.0,"0-6 Formation: 2, 1-5 Formation: 1"
+45120,45120,1-5 Formation,right,1.0,1-5 Formation: 1
+45121,45122,1-5 Formation,left,1.0,1-5 Formation: 2
+45123,45123,1-5 Formation,right,1.0,1-5 Formation: 1
+45124,45128,1-5 Formation,left,1.0,1-5 Formation: 5
+45129,45129,1-5 Formation,right,1.0,1-5 Formation: 1
+45130,45357,1-5 Formation,left,1.0,"0-6 Formation: 50, 1-5 Formation: 101, 2-4 Formation: 10, 3-3 Formation: 26"
+45360,45371,1-5 Formation,left,1.0,"2-4 Formation: 2, 1-5 Formation: 8, 0-6 Formation: 2"
+45734,46258,0-6 Formation,right,1.0,"1-5 Formation: 159, 0-6 Formation: 259, 2-4 Formation: 70, 3-3 Formation: 16"
+46513,46513,2-4 Formation,left,1.0,2-4 Formation: 1
+46562,47122,0-6 Formation,right,1.0,"0-6 Formation: 348, 1-5 Formation: 88, 2-4 Formation: 10, 3-3 Formation: 21, Unknown Formation: 38"
+47430,47432,0-6 Formation,left,1.0,0-6 Formation: 3
+47435,47435,0-6 Formation,left,1.0,0-6 Formation: 1
+47439,47440,0-6 Formation,left,1.0,0-6 Formation: 2
+47443,47443,0-6 Formation,left,1.0,0-6 Formation: 1
+47446,47447,0-6 Formation,left,1.0,0-6 Formation: 2
+47450,47461,0-6 Formation,left,1.0,0-6 Formation: 12
+47464,47477,0-6 Formation,left,1.0,0-6 Formation: 14
+47480,47480,0-6 Formation,left,1.0,0-6 Formation: 1
+47486,47486,0-6 Formation,left,1.0,0-6 Formation: 1
+47489,47492,0-6 Formation,left,1.0,0-6 Formation: 4
+47495,47496,0-6 Formation,left,1.0,0-6 Formation: 2
+47499,47564,0-6 Formation,left,1.0,0-6 Formation: 53
+47697,47809,Unknown Formation,left,1.0,"1-5 Formation: 33, 2-4 Formation: 19, 3-3 Formation: 24, Unknown Formation: 37"
+47812,47845,0-6 Formation,left,1.0,"0-6 Formation: 33, 1-5 Formation: 1"
+47848,47869,2-4 Formation,left,1.0,"0-6 Formation: 1, 1-5 Formation: 8, 2-4 Formation: 13"
+47873,47875,2-4 Formation,left,1.0,"1-5 Formation: 1, 2-4 Formation: 2"
+47880,47883,1-5 Formation,left,1.0,"1-5 Formation: 2, 2-4 Formation: 2"
+47887,47887,2-4 Formation,left,1.0,2-4 Formation: 1
+47904,48218,1-5 Formation,left,1.0,"1-5 Formation: 171, 2-4 Formation: 79, 0-6 Formation: 4, 3-3 Formation: 59"
+48309,48334,1-5 Formation,left,1.0,"1-5 Formation: 12, 2-4 Formation: 7, 3-3 Formation: 7"
+48399,48400,1-5 Formation,right,1.0,1-5 Formation: 1
+48401,48403,1-5 Formation,left,1.0,1-5 Formation: 2
+48404,48405,2-4 Formation,right,1.0,2-4 Formation: 1
+48746,48773,1-5 Formation,right,1.0,"1-5 Formation: 18, 2-4 Formation: 8"
+48894,49253,1-5 Formation,left,1.0,"0-6 Formation: 89, 1-5 Formation: 183, 2-4 Formation: 88"
+49257,49400,2-4 Formation,left,1.0,"0-6 Formation: 19, 1-5 Formation: 27, 2-4 Formation: 36, 3-3 Formation: 31, Unknown Formation: 8"
+49680,49707,1-5 Formation,right,1.0,"1-5 Formation: 16, 2-4 Formation: 2, 0-6 Formation: 3"
+49957,50405,1-5 Formation,left,1.0,"0-6 Formation: 122, 1-5 Formation: 287, 2-4 Formation: 31, Unknown Formation: 2, 3-3 Formation: 6"
+50571,50766,2-4 Formation,left,1.0,"2-4 Formation: 88, 3-3 Formation: 54, 1-5 Formation: 47, 0-6 Formation: 3, Unknown Formation: 2"
+51005,51008,1-5 Formation,left,1.0,1-5 Formation: 1
+51012,51032,2-4 Formation,left,1.0,2-4 Formation: 21
+51070,51070,3-3 Formation,left,1.0,3-3 Formation: 1
+51417,51914,1-5 Formation,right,1.0,"0-6 Formation: 127, 1-5 Formation: 322, 2-4 Formation: 26, Unknown Formation: 6, 3-3 Formation: 6"
+52051,52162,Unknown Formation,left,1.0,"0-6 Formation: 11, 1-5 Formation: 20, 2-4 Formation: 20, 3-3 Formation: 15, Unknown Formation: 21"
+52517,52963,1-5 Formation,left,1.0,"0-6 Formation: 1, 1-5 Formation: 280, 2-4 Formation: 117, 3-3 Formation: 12, Unknown Formation: 36"
+53322,53493,1-5 Formation,right,1.0,"0-6 Formation: 7, 1-5 Formation: 136"
+53544,53544,1-5 Formation,right,1.0,1-5 Formation: 1
+53547,53554,1-5 Formation,right,1.0,1-5 Formation: 8
+53557,53928,1-5 Formation,right,1.0,"1-5 Formation: 132, 0-6 Formation: 63, 2-4 Formation: 25, 3-3 Formation: 4"
+54175,54188,0-6 Formation,left,1.0,0-6 Formation: 4
+54191,54546,0-6 Formation,left,1.0,"0-6 Formation: 264, 1-5 Formation: 20, 2-4 Formation: 46, 3-3 Formation: 9"
+54925,55558,1-5 Formation,right,1.0,"0-6 Formation: 107, 1-5 Formation: 398, 2-4 Formation: 19"
+55638,55885,2-4 Formation,right,1.0,"1-5 Formation: 102, 2-4 Formation: 132, 0-6 Formation: 4"
+55980,56003,Unknown Formation,right,1.0,"2-4 Formation: 3, 3-3 Formation: 2, Unknown Formation: 7"
+56006,56047,3-3 Formation,right,1.0,"3-3 Formation: 26, 2-4 Formation: 16"
+56056,56080,2-4 Formation,right,1.0,"2-4 Formation: 14, 1-5 Formation: 1"
+56118,56154,1-5 Formation,right,1.0,1-5 Formation: 37
+56342,56342,1-5 Formation,right,1.0,1-5 Formation: 1
+56349,56349,0-6 Formation,right,1.0,0-6 Formation: 1
+56353,56353,1-5 Formation,right,1.0,1-5 Formation: 1
+56358,56358,0-6 Formation,right,1.0,0-6 Formation: 1
+57464,57467,1-5 Formation,right,1.0,"0-6 Formation: 1, 1-5 Formation: 2"
+57471,57558,1-5 Formation,right,1.0,"1-5 Formation: 84, 0-6 Formation: 1, 2-4 Formation: 3"
+57775,57826,1-5 Formation,right,1.0,"1-5 Formation: 47, 0-6 Formation: 5"
+58183,58193,0-6 Formation,right,1.0,0-6 Formation: 8
+58393,58586,0-6 Formation,left,1.0,"0-6 Formation: 103, 1-5 Formation: 17, 2-4 Formation: 19, 3-3 Formation: 16"
+58587,58587,1-5 Formation,right,1.0,1-5 Formation: 1
+58590,58593,0-6 Formation,left,1.0,0-6 Formation: 1
+58594,58594,1-5 Formation,right,1.0,1-5 Formation: 1
+58595,58597,0-6 Formation,left,1.0,0-6 Formation: 3
+58598,58598,1-5 Formation,right,1.0,1-5 Formation: 1
+58599,58599,0-6 Formation,left,1.0,0-6 Formation: 1
+58970,59440,1-5 Formation,right,1.0,"0-6 Formation: 170, 1-5 Formation: 204, 2-4 Formation: 2"
+59495,59500,1-5 Formation,left,1.0,1-5 Formation: 6
+59503,59519,1-5 Formation,left,1.0,1-5 Formation: 17
+59983,60003,1-5 Formation,left,1.0,"1-5 Formation: 19, 0-6 Formation: 2"
+60297,60832,1-5 Formation,right,1.0,"0-6 Formation: 197, 1-5 Formation: 332"
+61060,61060,1-5 Formation,left,1.0,1-5 Formation: 1
+61117,61117,0-6 Formation,left,1.0,0-6 Formation: 1
+61163,61163,1-5 Formation,left,1.0,1-5 Formation: 1
+61214,61214,0-6 Formation,left,1.0,0-6 Formation: 1
+61270,61270,0-6 Formation,left,1.0,0-6 Formation: 1
+61353,61353,1-5 Formation,left,1.0,1-5 Formation: 1
+61554,61559,0-6 Formation,left,1.0,0-6 Formation: 6
+61668,61686,0-6 Formation,right,1.0,"0-6 Formation: 7, 1-5 Formation: 1"
+61691,61758,0-6 Formation,right,1.0,0-6 Formation: 13
+61788,62168,0-6 Formation,right,1.0,"0-6 Formation: 215, 1-5 Formation: 3"
+62171,62179,0-6 Formation,right,1.0,"1-5 Formation: 3, 2-4 Formation: 1, 0-6 Formation: 5"
+62183,62269,0-6 Formation,right,1.0,"0-6 Formation: 28, 1-5 Formation: 14, 2-4 Formation: 2"
+62272,62275,1-5 Formation,right,1.0,1-5 Formation: 4
+62288,62306,1-5 Formation,right,1.0,"1-5 Formation: 16, 2-4 Formation: 3"
+62588,62588,1-5 Formation,left,1.0,1-5 Formation: 1
+62630,62630,1-5 Formation,left,1.0,1-5 Formation: 1
+62757,62930,0-6 Formation,right,1.0,"0-6 Formation: 73, 1-5 Formation: 8, 2-4 Formation: 17, 3-3 Formation: 6, Unknown Formation: 5"
+63021,63022,0-6 Formation,left,1.0,0-6 Formation: 2
+63027,63028,0-6 Formation,left,1.0,0-6 Formation: 2
+63031,63032,0-6 Formation,left,1.0,0-6 Formation: 2
+63035,63156,2-4 Formation,left,1.0,"0-6 Formation: 3, 3-3 Formation: 13, Unknown Formation: 6, 2-4 Formation: 21, 1-5 Formation: 1"
+63397,63398,2-4 Formation,right,1.0,2-4 Formation: 1
+63401,63403,2-4 Formation,right,1.0,2-4 Formation: 3
+63406,63414,1-5 Formation,right,1.0,"1-5 Formation: 6, 2-4 Formation: 2, 0-6 Formation: 1"
+63481,64095,0-6 Formation,left,1.0,"0-6 Formation: 343, 1-5 Formation: 116, 2-4 Formation: 91, 3-3 Formation: 53, Unknown Formation: 10"
+64096,64096,1-5 Formation,right,1.0,1-5 Formation: 1
+64097,64100,3-3 Formation,left,1.0,3-3 Formation: 4
+64101,64101,1-5 Formation,right,1.0,1-5 Formation: 1
+64119,64201,2-4 Formation,left,1.0,"3-3 Formation: 14, Unknown Formation: 3, 2-4 Formation: 23, 1-5 Formation: 13"
+64443,64794,0-6 Formation,right,1.0,"0-6 Formation: 220, 1-5 Formation: 57, 2-4 Formation: 20"
+64917,65264,1-5 Formation,right,1.0,"0-6 Formation: 29, 1-5 Formation: 50, 2-4 Formation: 38"
+65463,65471,0-6 Formation,right,1.0,"0-6 Formation: 8, 1-5 Formation: 1"
+65474,65506,0-6 Formation,right,1.0,"0-6 Formation: 9, 1-5 Formation: 2"
+65719,65719,0-6 Formation,left,1.0,0-6 Formation: 1
+65720,65720,0-6 Formation,right,1.0,0-6 Formation: 1
+65721,65727,0-6 Formation,left,1.0,0-6 Formation: 2
+65728,65728,0-6 Formation,right,1.0,0-6 Formation: 1
+65729,65735,0-6 Formation,left,1.0,0-6 Formation: 7
+65736,65737,0-6 Formation,right,1.0,0-6 Formation: 2
+65738,65739,0-6 Formation,left,1.0,0-6 Formation: 2
+65740,65740,0-6 Formation,right,1.0,0-6 Formation: 1
+65741,66139,0-6 Formation,left,1.0,"0-6 Formation: 225, 1-5 Formation: 94, 2-4 Formation: 11, 3-3 Formation: 25, Unknown Formation: 23"
+66140,66140,2-4 Formation,right,1.0,2-4 Formation: 1
+66141,66150,0-6 Formation,left,1.0,0-6 Formation: 10
+66151,66154,2-4 Formation,right,1.0,2-4 Formation: 4
+66155,66155,0-6 Formation,left,1.0,0-6 Formation: 1
+66156,66157,2-4 Formation,right,1.0,2-4 Formation: 2
+66158,66158,0-6 Formation,left,1.0,0-6 Formation: 1
+66159,66161,1-5 Formation,right,1.0,1-5 Formation: 3
+66162,66165,0-6 Formation,left,1.0,0-6 Formation: 4
+66166,66168,1-5 Formation,right,1.0,"1-5 Formation: 2, 2-4 Formation: 1"
+66169,66171,0-6 Formation,left,1.0,0-6 Formation: 3
+66172,66172,3-3 Formation,right,1.0,3-3 Formation: 1
+66173,66173,0-6 Formation,left,1.0,0-6 Formation: 1
+66174,66174,2-4 Formation,right,1.0,2-4 Formation: 1
+66175,66175,0-6 Formation,left,1.0,0-6 Formation: 1
+66176,66177,2-4 Formation,right,1.0,2-4 Formation: 2
+66178,66178,0-6 Formation,left,1.0,0-6 Formation: 1
+66179,66179,1-5 Formation,right,1.0,1-5 Formation: 1
+66180,66184,0-6 Formation,left,1.0,0-6 Formation: 5
+66185,66185,2-4 Formation,right,1.0,2-4 Formation: 1
+66192,66201,0-6 Formation,left,1.0,0-6 Formation: 8
+66535,66535,0-6 Formation,left,1.0,0-6 Formation: 1
+66538,66596,0-6 Formation,left,1.0,0-6 Formation: 59
+66599,66650,0-6 Formation,left,1.0,0-6 Formation: 52
+66653,67009,0-6 Formation,left,1.0,"0-6 Formation: 215, 3-3 Formation: 41, 1-5 Formation: 15, 2-4 Formation: 20, Unknown Formation: 10"
+67274,67334,3-3 Formation,left,1.0,"0-6 Formation: 1, 1-5 Formation: 2, 3-3 Formation: 39, 2-4 Formation: 2"
+67590,68033,1-5 Formation,left,1.0,"1-5 Formation: 96, 2-4 Formation: 34"
+68137,68157,0-6 Formation,right,1.0,0-6 Formation: 4
+68160,68279,0-6 Formation,right,1.0,"0-6 Formation: 118, 1-5 Formation: 2"
+68341,68342,0-6 Formation,right,1.0,0-6 Formation: 1
+68345,68364,0-6 Formation,right,1.0,0-6 Formation: 7
+68368,68386,0-6 Formation,right,1.0,"0-6 Formation: 3, 1-5 Formation: 2"
+68389,68400,0-6 Formation,right,1.0,"1-5 Formation: 3, 0-6 Formation: 6"
+68412,69147,1-5 Formation,right,1.0,"0-6 Formation: 194, 1-5 Formation: 520, 3-3 Formation: 1, 2-4 Formation: 19"
+69150,69228,1-5 Formation,right,1.0,"1-5 Formation: 64, 0-6 Formation: 15"
+69891,70203,0-6 Formation,left,1.0,0-6 Formation: 115

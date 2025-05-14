@@ -12,7 +12,6 @@ import numpy as np
 from itertools import combinations
 from tqdm import tqdm
 import time  # Add import for time module
-from functools import lru_cache
 
 # 理想的なフォーメーション座標
 formation_positions = {
@@ -33,7 +32,6 @@ class FormationClassifier:
         self.csv_file = csv_file
         self.attack_formations = self.load_csv()
 
-    @lru_cache(maxsize=None)
     def load_csv(self):
         """CSVファイルを読み込み、フレームごとに選手位置をまとめる"""
         frames = defaultdict(list)
@@ -50,84 +48,85 @@ class FormationClassifier:
 
 ##################フォーメーションの判別を行うメソッドここから##################
 
-    # def classify_formations(self):
-    #     """フレームごとに6人(x軸に基づく)まとめてフォーメーション判別（ハンガリアン法ベース）"""
-    #     classified_formations = []
-
-    #     for (frame_num, direction), positions in self.attack_formations.items():
-    #         if len(positions) < 6:
-    #             continue
-
-    #         # ゴール側6人の選定（方向によってソート順を変更）
-    #         if direction == "right":
-    #             positions = sorted(positions, key=lambda p: p[0], reverse=True)[:6]
-    #         elif direction == "left":
-    #             positions = sorted(positions, key=lambda p: p[0])[:6]
-    #         positions = np.array(positions)
-
-    #         closest_formation = None
-    #         min_total_distance = float('inf')
-
-    #         for formation, ideal_positions in formation_positions.items():
-    #             if len(ideal_positions) != 6:
-    #                 continue  # 念のため6人以外はスキップ
-    #             ideal_positions_arr = np.array(ideal_positions)
-
-    #             # 距離行列を計算
-    #             cost_matrix = cdist(positions, ideal_positions_arr)
-    #             # ハンガリアン法で最適割り当てを取得
-    #             row_ind, col_ind = linear_sum_assignment(cost_matrix)
-    #             # 合計距離を評価指標とする
-    #             total_distance = cost_matrix[row_ind, col_ind].sum() / len(positions)
-
-    #             if total_distance < min_total_distance:
-    #                 min_total_distance = total_distance
-    #                 closest_formation = formation
-
-    #         # 信頼度スコア（距離が小さいほど高い）
-    #         confidence = 1 / (1 + min_total_distance)
-    #         classified_formations.append((frame_num, direction, closest_formation, confidence))
-
-    #     return classified_formations
-    
     def classify_formations(self):
-        """全選手から6人を選び、最も一致度の高い組を使ってフォーメーション分類"""
+        """フレームごとに6人(x軸に基づく)まとめてフォーメーション判別（ハンガリアン法ベース）"""
         classified_formations = []
 
-        all_items = list(self.attack_formations.items())
-
-        for (frame_num, direction), positions in tqdm(all_items, desc="Processing frames"):
+        for (frame_num, direction), positions in self.attack_formations.items():
             if len(positions) < 6:
                 continue
 
-            best_formation = None
-            best_confidence = 0
+            # ゴール側6人の選定（方向によってソート順を変更）
+            if direction == "right":
+                positions = sorted(positions, key=lambda p: p[0], reverse=True)[:6]
+            elif direction == "left":
+                positions = sorted(positions, key=lambda p: p[0])[:6]
+            positions = np.array(positions)
+
+            closest_formation = None
             min_total_distance = float('inf')
 
-            # すべての6人組み合わせを評価
-            for six_positions in combinations(positions, 6):
-                six_positions = np.array(six_positions)
+            for formation, ideal_positions in formation_positions.items():
+                if len(ideal_positions) != 6:
+                    continue  # 念のため6人以外はスキップ
+                ideal_positions_arr = np.array(ideal_positions)
 
-                for formation, ideal_positions in formation_positions.items():
-                    if len(ideal_positions) != 6:
-                        continue
-                    ideal_positions_arr = np.array(ideal_positions)
+                # 距離行列を計算
+                cost_matrix = cdist(positions, ideal_positions_arr)
+                # ハンガリアン法で最適割り当てを取得
+                row_ind, col_ind = linear_sum_assignment(cost_matrix)
+                # 合計距離を評価指標とする
+                total_distance = cost_matrix[row_ind, col_ind].sum() / len(positions)
 
-                    # 距離行列を計算
-                    cost_matrix = cdist(six_positions, ideal_positions_arr)
-                    # ハンガリアン法で最適対応を取得
-                    row_ind, col_ind = linear_sum_assignment(cost_matrix)
-                    total_distance = cost_matrix[row_ind, col_ind].sum() / 6
+                if total_distance < min_total_distance:
+                    min_total_distance = total_distance
+                    closest_formation = formation
 
-                    if total_distance < min_total_distance:
-                        min_total_distance = total_distance
-                        best_formation = formation
-                        best_confidence = 1 / (1 + total_distance)
-
-            if best_formation:
-                classified_formations.append((frame_num, direction, best_formation, best_confidence))
+            # 信頼度スコア（距離が小さいほど高い）
+            confidence = 1 / (1 + min_total_distance)
+            classified_formations.append((frame_num, direction, closest_formation, confidence))
 
         return classified_formations
+    
+    # def classify_formations(self):
+    #     """全選手から6人を選び、最も一致度の高い組を使ってフォーメーション分類"""
+    #     classified_formations = []
+
+    #     all_items = list(self.attack_formations.items())
+
+    #     for (frame_num, direction), positions in tqdm(all_items, desc="Processing frames"):
+    #         if len(positions) < 6:
+    #             continue
+
+    #         best_formation = None
+    #         best_confidence = 0
+    #         min_total_distance = float('inf')
+
+    #         # すべての6人組み合わせを評価
+    #         for six_positions in combinations(positions, 6):
+    #             six_positions = np.array(six_positions)
+
+    #             for formation, ideal_positions in formation_positions.items():
+    #                 if len(ideal_positions) != 6:
+    #                     continue
+    #                 ideal_positions_arr = np.array(ideal_positions)
+
+    #                 # 距離行列を計算
+    #                 cost_matrix = cdist(six_positions, ideal_positions_arr)
+    #                 # ハンガリアン法で最適対応を取得
+    #                 row_ind, col_ind = linear_sum_assignment(cost_matrix)
+    #                 total_distance = cost_matrix[row_ind, col_ind].sum() / 6
+
+    #                 if total_distance < min_total_distance:
+    #                     min_total_distance = total_distance
+    #                     best_formation = formation
+    #                     best_confidence = 1 / (1 + total_distance)
+
+    #         if best_formation:
+    #             classified_formations.append((frame_num, direction, best_formation, best_confidence))
+
+    #     return classified_formations
+
     
 ##################フォーメーションの判別を行うメソッドここまで##################
 
@@ -218,7 +217,7 @@ class FormationClassifier:
     def get_dominant_formations(self, classified_formations, min_length=50):
         """
         directionごとにフェーズを区切り、100フレーム未満のフェーズは前後と結合できなければ除外、
-        フェーズ単位で信頼度に基づいて支配的なフォーメーションを決定する
+        フェーズ単位で信頼度に基づいて防御フォーメーションを決定する
         """
         # directionごとにフェーズをまず分割
         phases = []
@@ -329,7 +328,7 @@ class FormationClassifier:
 
 
     def save_dominant_formations(self, dominant_formations, classified_formations, output_file):
-        """CSVに支配的フォーメーション＋内訳を保存し、全体の出現数も別ファイルに出力"""
+        """CSVに保存し、全体の出現数も別ファイルに出力"""
         with open(output_file, 'w', newline='') as file:
             writer = csv.writer(file)
             writer.writerow(["開始フレーム", "終了フレーム", "フォーメーション", "方向", "信頼度", "フォーメーション内訳"])
@@ -373,8 +372,12 @@ if __name__ == "__main__":
 
     classifier = FormationClassifier(csv_file)
     classified_formations = classifier.classify_formations()
+
     dominant_formations = classifier.get_dominant_formations(classified_formations)
     classifier.save_dominant_formations(dominant_formations, classified_formations, output_file)
 
     end_time = time.time()  # End timing
     print(f"Processing completed in {end_time - start_time:.2f} seconds.")  # Output processing time
+
+    
+
