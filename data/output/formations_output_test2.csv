@@ -1,1004 +1,432 @@
 開始フレーム,終了フレーム,フォーメーション,方向,信頼度,内訳
-18930,19000,1-2-3_right,right,0.91,"1-2-3_right: 42, 3-3_left: 28, 3-3_right: 1"
-19001,19018,3-3_left,right,0.9,"3-3_right: 3, 3-3_left: 15"
-19020,19021,3-3_left,right,0.91,3-3_left: 2
-19025,19026,1-2-3_right,right,0.9,"1-2-3_right: 1, 3-3_right: 1"
-19028,19029,3-3_left,right,0.91,"3-3_left: 1, 1-2-3_right: 1"
-19047,19047,1-2-3_right,right,0.91,1-2-3_right: 1
-19050,19055,1-2-3_right,right,0.91,1-2-3_right: 6
-19058,19059,1-2-3_right,right,0.92,1-2-3_right: 2
-19060,19060,1-2-3_right,right,0.92,1-2-3_right: 1
-19061,19062,1-2-3_right,right,0.92,1-2-3_right: 2
-19064,19070,1-2-3_right,right,0.91,1-2-3_right: 7
-19072,19075,1-2-3_right,right,0.91,1-2-3_right: 4
-19077,19106,1-2-3_right,right,0.91,"1-2-3_right: 25, 3-3_right: 5"
-19108,19207,3-3_right,right,0.91,"1-2-3_right: 39, 3-3_right: 61"
-19208,19327,1-2-3_right,right,0.91,"1-2-3_right: 87, 3-3_left: 3, 1-2-3_left: 22, 1-5_right: 6, 2-4_right: 2"
-19332,19333,1-2-3_left,right,0.91,"1-2-3_left: 1, 1-2-3_right: 1"
-19343,19343,3-3_left,right,0.91,3-3_left: 1
-19349,19360,3-3_left,right,0.91,"3-3_left: 11, 1-2-3_right: 1"
-19362,19364,3-3_right,right,0.9,"1-2-3_right: 1, 3-3_right: 2"
-19366,19452,3-3_right,right,0.91,"3-3_right: 83, 1-2-3_right: 4"
-19453,19505,3-3_right,right,0.92,3-3_right: 53
-19506,19554,3-3_right,right,0.91,"3-3_right: 31, 3-3_left: 8, 1-2-3_left: 10"
-19555,19584,3-3_left,right,0.87,"3-3_left: 18, 3-3_right: 12"
-19700,19702,1-5_right,left,0.88,"1-5_right: 1, 1-5_left: 1, 3-3_left: 1"
-19704,19736,3-3_left,left,0.91,"3-3_left: 20, 1-5_left: 11, 1-2-3_left: 2"
-19740,19741,2-4_left,left,0.93,"2-4_left: 1, 1-2-3_left: 1"
-19750,19797,1-2-3_left,left,0.94,"1-2-3_left: 29, 2-4_left: 17, 0-6_left: 2"
-19801,19805,0-6_left,left,0.95,"0-6_left: 4, 2-4_left: 1"
-19806,19806,1-2-3_left,right,0.93,1-2-3_left: 1
-19807,19866,1-5_left,left,0.94,"2-4_left: 3, 1-5_left: 26, 0-6_left: 17, 1-2-3_left: 14"
-19868,20044,1-5_left,left,0.94,"1-5_left: 101, 3-3_left: 3, 2-4_left: 17, 1-2-3_left: 56"
-20055,20056,1-2-3_left,left,0.93,1-2-3_left: 2
-20066,20221,1-2-3_left,left,0.94,"1-5_left: 63, 1-2-3_left: 93"
-20255,20352,1-2-3_left,left,0.94,"1-5_left: 45, 0-6_left: 2, 1-2-3_left: 50, 2-4_left: 1"
-20355,20425,1-5_left,left,0.95,"1-2-3_left: 3, 1-5_left: 68"
-20482,20700,1-5_left,left,0.95,"1-2-3_left: 67, 1-5_left: 137, 0-6_left: 15"
-20702,20703,1-2-3_left,left,0.89,"1-2-3_left: 1, 0-6_left: 1"
-20705,20705,0-6_left,left,0.89,0-6_left: 1
-20735,20735,1-2-3_left,left,0.91,1-2-3_left: 1
-20737,20753,3-3_left,left,0.91,"1-2-3_left: 5, 3-3_left: 12"
-21299,21584,3-3_right,right,0.91,"3-3_right: 165, 1-2-3_right: 89, 1-5_right: 1, 2-4_right: 2, 3-3_left: 28, 1-5_left: 1"
-21587,21587,3-3_left,right,0.84,3-3_left: 1
-21589,21589,3-3_left,right,0.85,3-3_left: 1
-22119,22126,2-4_left,left,0.93,"2-4_left: 4, 1-2-3_left: 4"
-22128,22129,2-4_left,left,0.93,2-4_left: 2
-22165,22226,1-2-3_left,left,0.94,"1-2-3_left: 20, 1-5_left: 20, 2-4_left: 13, 0-6_left: 9"
-22228,22241,0-6_left,left,0.95,0-6_left: 14
-22242,22242,3-3_left,right,0.93,3-3_left: 1
-22243,22294,1-5_left,left,0.96,"0-6_left: 12, 1-2-3_left: 4, 1-5_left: 36"
-22296,22311,1-5_left,left,0.96,1-5_left: 16
-22314,22316,1-5_left,left,0.94,1-5_left: 3
-22318,22357,2-4_left,left,0.94,"1-5_left: 4, 3-3_left: 12, 2-4_left: 21, 1-2-3_left: 3"
-22358,22379,1-2-3_left,left,0.94,"3-3_left: 10, 1-2-3_left: 12"
-22380,22480,1-2-3_left,left,0.93,"1-2-3_left: 69, 2-4_left: 31, 3-3_left: 1"
-22481,22491,3-3_left,left,0.9,3-3_left: 11
-22794,22852,3-3_left,right,0.91,"3-3_right: 11, 3-3_left: 38, 1-2-3_left: 7, 2-4_left: 3"
-22916,23185,3-3_right,right,0.92,"3-3_right: 214, 1-2-3_right: 7, 3-3_left: 30, 2-4_right: 13, 1-2-3_left: 6"
-23354,23358,3-3_right,right,0.85,3-3_right: 5
-23360,23370,3-3_right,right,0.84,3-3_right: 11
-23579,23579,1-5_left,left,0.92,1-5_left: 1
-23586,23586,1-5_left,left,0.93,1-5_left: 1
-23588,23590,1-5_left,left,0.93,1-5_left: 3
-23594,23595,1-5_left,left,0.94,1-5_left: 2
-23598,23600,1-5_left,left,0.94,1-5_left: 3
-23602,23602,1-5_left,left,0.94,1-5_left: 1
-23605,23606,1-5_left,left,0.93,1-5_left: 2
-23611,23612,1-5_left,left,0.94,1-5_left: 2
-23614,23618,1-5_left,left,0.95,1-5_left: 5
-23620,23620,1-5_left,left,0.94,1-5_left: 1
-23622,23668,1-5_left,left,0.93,1-5_left: 47
-23670,23676,1-5_left,left,0.91,1-5_left: 7
-23678,23686,1-5_left,left,0.91,1-5_left: 9
-23688,23688,1-5_left,left,0.91,1-5_left: 1
-23690,23692,1-5_left,left,0.91,1-5_left: 3
-23694,23697,1-5_left,left,0.91,1-5_left: 4
-23699,23701,1-5_left,left,0.9,1-5_left: 3
-23704,23707,1-5_left,left,0.9,1-5_left: 4
-23709,23715,1-5_left,left,0.9,"1-5_left: 6, 3-3_left: 1"
-23719,23721,3-3_left,left,0.9,"3-3_left: 2, 2-4_left: 1"
-23724,23724,3-3_left,left,0.91,3-3_left: 1
-23726,23726,1-2-3_left,left,0.9,1-2-3_left: 1
-23732,23733,3-3_left,left,0.92,3-3_left: 2
-23735,23735,1-2-3_left,left,0.91,1-2-3_left: 1
-23738,23741,1-2-3_left,left,0.9,"1-2-3_left: 3, 1-5_left: 1"
-23743,23745,1-5_left,left,0.91,1-5_left: 3
-23747,23747,1-5_left,left,0.92,1-5_left: 1
-23751,23751,3-3_left,left,0.92,3-3_left: 1
-23764,23764,3-3_left,left,0.92,3-3_left: 1
-23767,23772,1-5_left,left,0.9,"3-3_left: 1, 1-5_left: 5"
-23777,23782,1-5_left,left,0.91,1-5_left: 6
-23785,23786,1-5_left,left,0.91,1-5_left: 2
-23794,23795,1-5_left,left,0.91,1-5_left: 2
-23800,23801,1-5_left,left,0.91,1-5_left: 2
-23803,23804,1-2-3_left,left,0.91,1-2-3_left: 2
-23806,23825,1-2-3_left,left,0.9,"1-2-3_left: 19, 1-5_left: 1"
-23826,23986,3-3_right,left,0.92,"1-2-3_left: 20, 3-3_left: 14, 1-2-3_right: 1, 3-3_right: 126"
-23988,24040,3-3_right,left,0.9,"3-3_right: 28, 3-3_left: 21, 1-2-3_left: 4"
-24042,24043,3-3_left,left,0.9,3-3_left: 2
-24045,24072,3-3_left,left,0.9,"3-3_left: 27, 3-3_right: 1"
-24073,24083,3-3_left,left,0.9,"3-3_left: 9, 3-3_right: 2"
-24085,24100,3-3_left,left,0.9,"3-3_left: 12, 3-3_right: 4"
-24161,24166,2-4_left,left,0.94,"1-2-3_left: 2, 2-4_left: 4"
-24168,24285,1-2-3_left,left,0.9,"2-4_left: 25, 1-2-3_left: 76, 1-5_left: 10, 3-3_left: 7"
-24287,24340,1-5_left,left,0.94,"1-5_left: 52, 1-2-3_left: 2"
-24342,24342,1-5_left,left,0.95,1-5_left: 1
-24344,24383,1-5_left,left,0.94,"1-5_left: 39, 2-4_left: 1"
-24385,24433,1-5_left,left,0.95,"1-5_left: 47, 1-2-3_left: 2"
-24450,24450,0-6_left,left,0.95,0-6_left: 1
-24453,24456,0-6_left,left,0.95,0-6_left: 4
-24458,24460,0-6_left,left,0.95,0-6_left: 3
-24462,24463,0-6_left,left,0.95,0-6_left: 2
-24472,24483,0-6_left,left,0.95,"0-6_left: 10, 1-2-3_left: 2"
-24661,24729,0-6_left,left,0.91,"3-3_left: 7, 2-4_left: 17, 0-6_left: 35, 1-2-3_left: 7, 1-5_left: 3"
-24731,24856,0-6_left,left,0.93,"0-6_left: 69, 1-2-3_left: 23, 3-3_left: 7, 1-5_left: 12, 2-4_left: 15"
-24860,24913,1-2-3_left,left,0.91,"1-5_left: 7, 1-2-3_left: 37, 2-4_left: 6, 3-3_right: 4"
-24922,24925,2-4_left,left,0.9,2-4_left: 4
-24928,24928,2-4_left,left,0.9,2-4_left: 1
-24949,24964,3-3_left,right,0.89,"0-6_left: 1, 1-2-3_left: 4, 3-3_left: 8, 1-5_left: 3"
-24967,24967,1-5_left,right,0.89,1-5_left: 1
-25004,25004,1-2-3_right,right,0.9,1-2-3_right: 1
-25010,25010,1-2-3_left,right,0.88,1-2-3_left: 1
-25016,25019,3-3_right,right,0.91,3-3_right: 4
-25026,25026,3-3_right,right,0.92,3-3_right: 1
-25029,25029,2-4_right,right,0.91,2-4_right: 1
-25031,25031,1-2-3_right,right,0.92,1-2-3_right: 1
-25033,25033,3-3_right,right,0.91,3-3_right: 1
-25052,25052,1-2-3_right,right,0.92,1-2-3_right: 1
-25057,25058,1-2-3_right,right,0.92,1-2-3_right: 2
-25060,25062,1-2-3_right,right,0.93,1-2-3_right: 3
-25064,25097,1-2-3_right,right,0.94,1-2-3_right: 34
-25098,25102,1-2-3_right,right,0.9,1-2-3_right: 5
-25104,25104,1-2-3_right,right,0.9,1-2-3_right: 1
-25314,25315,3-3_right,right,0.88,3-3_right: 2
-25317,25317,3-3_right,right,0.88,3-3_right: 1
-25342,25342,3-3_right,right,0.91,3-3_right: 1
-25344,25344,1-2-3_right,right,0.91,1-2-3_right: 1
-25346,25363,3-3_right,right,0.9,"3-3_right: 12, 1-2-3_right: 6"
-25365,25365,1-2-3_right,right,0.9,1-2-3_right: 1
-25367,25368,3-3_right,right,0.9,"3-3_right: 1, 1-2-3_right: 1"
-25407,25409,1-2-3_right,right,0.92,1-2-3_right: 3
-25411,25412,1-2-3_right,right,0.92,1-2-3_right: 2
-25415,25444,1-2-3_right,right,0.92,1-2-3_right: 30
-25446,25446,1-2-3_right,right,0.91,1-2-3_right: 1
-25449,25449,1-2-3_right,right,0.91,1-2-3_right: 1
-25456,25456,1-2-3_right,right,0.89,1-2-3_right: 1
-25460,25460,1-2-3_right,right,0.9,1-2-3_right: 1
-25471,25471,1-2-3_right,right,0.9,1-2-3_right: 1
-25479,25479,1-2-3_right,right,0.91,1-2-3_right: 1
-25487,25487,1-2-3_right,right,0.9,1-2-3_right: 1
-25490,25490,1-2-3_right,right,0.9,1-2-3_right: 1
-25495,25495,1-2-3_right,right,0.91,1-2-3_right: 1
-25505,25506,1-2-3_right,right,0.91,1-2-3_right: 2
-25509,25509,1-2-3_right,right,0.91,1-2-3_right: 1
-25512,25515,1-2-3_right,right,0.91,1-2-3_right: 4
-25516,25573,1-2-3_right,right,0.91,"1-2-3_right: 28, 2-4_right: 14, 3-3_right: 16"
-25574,25633,3-3_right,right,0.91,"3-3_right: 35, 1-2-3_right: 4, 1-2-3_left: 21"
-25634,25779,3-3_left,right,0.91,"3-3_right: 57, 3-3_left: 72, 1-2-3_right: 2, 2-4_right: 3, 2-4_left: 5, 1-2-3_left: 7"
-26276,26325,0-6_left,left,0.93,"0-6_left: 49, 1-5_left: 1"
-26327,26449,1-2-3_left,left,0.95,"0-6_left: 25, 1-5_left: 32, 1-2-3_left: 54, 2-4_left: 12"
-26451,26455,1-2-3_left,left,0.93,1-2-3_left: 5
-26457,26459,1-2-3_left,left,0.92,1-2-3_left: 3
-26464,26464,1-2-3_left,left,0.93,1-2-3_left: 1
-26466,26510,3-3_left,left,0.91,"3-3_left: 27, 2-4_left: 1, 1-2-3_left: 6, 2-4_right: 1, 3-3_right: 10"
-26511,26527,3-3_right,left,0.93,"3-3_right: 9, 1-2-3_left: 5, 1-2-3_right: 3"
-26748,26748,3-3_right,right,0.91,3-3_right: 1
-26755,26757,3-3_right,right,0.93,3-3_right: 3
-26759,26762,3-3_right,right,0.92,3-3_right: 4
-26764,26766,3-3_right,right,0.9,"3-3_right: 1, 1-2-3_right: 1, 0-6_right: 1"
-26768,26780,3-3_left,right,0.92,"3-3_right: 3, 1-2-3_right: 3, 3-3_left: 7"
-26782,26785,3-3_left,right,0.92,3-3_left: 4
-26787,26865,3-3_right,right,0.92,"3-3_left: 14, 3-3_right: 61, 2-4_right: 3, 2-4_left: 1"
-26867,26868,2-4_left,right,0.9,2-4_left: 2
-26870,26873,2-4_left,right,0.9,"2-4_left: 3, 3-3_left: 1"
-26875,26875,3-3_left,right,0.89,3-3_left: 1
-26878,26878,2-4_left,right,0.89,2-4_left: 1
-26880,26880,3-3_right,right,0.84,3-3_right: 1
-26887,26887,3-3_right,right,0.83,3-3_right: 1
-26889,26900,3-3_right,right,0.85,3-3_right: 12
-26901,26913,1-2-3_left,right,0.88,"1-2-3_right: 5, 3-3_left: 1, 1-2-3_left: 7"
-26948,26949,1-5_left,right,0.92,1-5_left: 2
-26951,26952,1-5_left,right,0.91,1-5_left: 2
-26954,26954,1-5_left,right,0.92,1-5_left: 1
-26956,26962,1-5_left,right,0.91,"1-5_left: 6, 0-6_left: 1"
-26969,26978,0-6_left,right,0.92,"0-6_left: 7, 2-4_left: 1, 1-5_left: 1, 1-2-3_left: 1"
-27003,27018,0-6_left,left,0.95,"0-6_left: 10, 1-2-3_left: 6"
-27082,27095,3-3_left,left,0.91,"3-3_left: 11, 2-4_left: 3"
-27099,27100,2-4_left,left,0.9,2-4_left: 2
-27456,27457,3-3_right,right,0.89,3-3_right: 2
-27459,27462,1-2-3_left,right,0.89,"1-5_left: 1, 1-2-3_left: 3"
-27505,27510,3-3_left,right,0.81,"3-3_left: 2, 3-3_right: 2, 1-2-3_left: 2"
-27828,27829,1-5_left,left,0.94,"1-5_left: 1, 0-6_left: 1"
-27832,27832,1-5_left,left,0.95,1-5_left: 1
-27869,27872,1-5_left,left,0.92,1-5_left: 4
-27874,27875,1-5_left,left,0.91,1-5_left: 2
-27877,27904,1-5_left,left,0.94,1-5_left: 28
-27906,27909,1-5_left,left,0.94,1-5_left: 4
-27927,27927,1-2-3_left,left,0.93,1-2-3_left: 1
-27929,27932,1-2-3_left,left,0.93,1-2-3_left: 4
-27935,27935,1-2-3_left,left,0.94,1-2-3_left: 1
-27943,27943,1-2-3_left,left,0.92,1-2-3_left: 1
-27947,27957,1-2-3_left,left,0.91,1-2-3_left: 11
-27958,27984,1-2-3_left,left,0.91,"1-2-3_left: 25, 2-4_left: 2"
-27985,28000,3-3_left,left,0.91,"1-2-3_left: 5, 2-4_left: 1, 3-3_left: 10"
-28001,28010,3-3_left,left,0.91,"3-3_left: 6, 2-4_left: 3, 3-3_right: 1"
-28017,28035,3-3_right,left,0.9,"3-3_right: 17, 3-3_left: 2"
-28037,28037,3-3_left,left,0.81,3-3_left: 1
-29076,29100,3-3_left,right,0.83,"3-3_left: 12, 3-3_right: 7, 1-2-3_right: 6"
-29101,29116,1-2-3_right,right,0.88,"1-2-3_right: 12, 3-3_left: 1, 3-3_right: 3"
-29123,29125,1-2-3_right,right,0.87,"1-2-3_right: 2, 3-3_right: 1"
-29145,29148,1-2-3_right,right,0.88,1-2-3_right: 4
-29150,29151,1-2-3_right,right,0.87,1-2-3_right: 2
-29168,29205,3-3_right,right,0.89,"1-2-3_right: 8, 3-3_right: 24, 2-4_right: 6"
-29207,29207,3-3_right,right,0.91,3-3_right: 1
-29222,29225,3-3_right,right,0.92,3-3_right: 4
-29233,29366,3-3_right,right,0.92,"3-3_right: 70, 1-5_right: 1, 2-4_right: 2, 1-2-3_right: 10, 3-3_left: 48, 2-4_left: 3"
-29367,29463,3-3_right,right,0.91,"3-3_left: 14, 3-3_right: 83"
-29464,29482,1-2-3_left,right,0.9,"3-3_left: 6, 3-3_right: 2, 1-2-3_left: 10, 0-6_left: 1"
-29485,29488,3-3_left,right,0.89,3-3_left: 4
-29490,29490,3-3_left,right,0.89,3-3_left: 1
-29491,29492,3-3_left,right,0.89,3-3_left: 2
-29493,29493,3-3_left,right,0.89,3-3_left: 1
-29495,29524,3-3_right,right,0.9,"3-3_left: 3, 3-3_right: 23, 1-2-3_right: 4"
-29525,29529,3-3_left,right,0.92,"1-2-3_right: 1, 3-3_left: 4"
-29531,29535,3-3_left,right,0.92,"1-2-3_right: 1, 3-3_left: 4"
-29538,29545,3-3_left,right,0.92,"3-3_left: 7, 1-2-3_right: 1"
-29546,29546,1-2-3_right,right,0.91,1-2-3_right: 1
-29547,29549,3-3_left,right,0.91,"3-3_left: 2, 1-2-3_right: 1"
-29551,29553,1-2-3_right,right,0.91,1-2-3_right: 3
-29554,29575,1-2-3_right,right,0.9,"1-2-3_right: 9, 3-3_right: 7, 3-3_left: 6"
-29576,29588,3-3_right,right,0.9,"3-3_right: 11, 2-4_right: 1, 2-4_left: 1"
-29589,29638,3-3_right,right,0.88,"2-4_left: 12, 3-3_right: 23, 3-3_left: 15"
-29671,29671,3-3_left,right,0.79,3-3_left: 1
-29673,29673,3-3_left,right,0.78,3-3_left: 1
-30019,30055,1-2-3_left,left,0.93,"1-2-3_left: 22, 1-5_left: 15"
-30057,30119,0-6_left,left,0.93,"1-5_left: 20, 1-2-3_left: 3, 0-6_left: 40"
-30121,30123,0-6_left,left,0.92,0-6_left: 3
-30125,30125,0-6_left,left,0.92,0-6_left: 1
-30129,30129,0-6_left,left,0.92,0-6_left: 1
-30131,30132,0-6_left,left,0.92,0-6_left: 2
-30135,30135,0-6_left,left,0.92,0-6_left: 1
-30140,30143,0-6_left,left,0.92,"0-6_left: 3, 1-2-3_left: 1"
-30146,30146,1-2-3_left,left,0.92,1-2-3_left: 1
-30154,30163,1-2-3_left,left,0.91,"1-2-3_left: 7, 1-5_left: 3"
-30167,30169,1-5_left,left,0.92,1-5_left: 3
-30171,30171,1-5_left,left,0.92,1-5_left: 1
-30173,30173,1-5_left,left,0.92,1-5_left: 1
-30175,30180,1-5_left,left,0.92,1-5_left: 6
-30182,30182,1-5_left,left,0.92,1-5_left: 1
-30251,30255,0-6_left,left,0.91,"0-6_left: 4, 2-4_left: 1"
-30257,30257,0-6_left,left,0.91,0-6_left: 1
-30259,30429,1-5_left,left,0.93,"2-4_left: 23, 0-6_left: 33, 1-5_left: 92, 1-2-3_left: 23"
-30438,30438,2-4_left,left,0.94,2-4_left: 1
-30442,30443,1-2-3_left,left,0.93,1-2-3_left: 2
-30445,30531,1-2-3_left,left,0.94,"1-5_left: 9, 1-2-3_left: 51, 0-6_left: 3, 2-4_left: 13, 3-3_left: 10, 1-2-3_right: 1"
-30535,30548,1-2-3_right,left,0.9,"1-2-3_right: 5, 3-3_left: 2, 2-4_right: 4, 3-3_right: 3"
-30559,30559,1-5_right,right,0.81,1-5_right: 1
-30684,30745,3-3_right,right,0.91,"2-4_right: 23, 3-3_right: 27, 3-3_left: 12"
-30753,30802,3-3_right,right,0.92,"3-3_right: 28, 3-3_left: 19, 1-2-3_right: 3"
-30803,30812,1-2-3_right,right,0.91,"1-2-3_right: 5, 3-3_right: 5"
-30815,30815,3-3_right,right,0.91,3-3_right: 1
-31001,31001,1-2-3_right,right,0.9,1-2-3_right: 1
-31005,31005,1-2-3_right,right,0.9,1-2-3_right: 1
-31007,31007,1-2-3_right,right,0.9,1-2-3_right: 1
-31009,31107,3-3_right,right,0.91,"0-6_right: 1, 1-2-3_right: 35, 3-3_right: 54, 1-5_right: 1, 2-4_right: 8"
-31108,31278,3-3_right,right,0.9,"2-4_right: 27, 3-3_right: 93, 3-3_left: 11, 1-2-3_left: 20, 1-2-3_right: 20"
-31377,31428,3-3_right,right,0.9,"3-3_right: 50, 3-3_left: 2"
-31457,31638,3-3_right,right,0.91,"3-3_right: 161, 1-2-3_right: 18, 3-3_left: 3"
-31639,31650,1-2-3_right,right,0.91,"1-2-3_right: 6, 3-3_left: 6"
-31652,31653,3-3_right,right,0.86,3-3_right: 2
-31655,31655,3-3_left,right,0.87,3-3_left: 1
-31657,31657,2-4_left,right,0.89,2-4_left: 1
-31659,31659,2-4_left,right,0.88,2-4_left: 1
-31662,31666,2-4_left,right,0.92,"2-4_left: 3, 1-2-3_left: 2"
-31863,31874,3-3_right,right,0.81,3-3_right: 12
-32172,32224,1-2-3_left,left,0.93,"1-5_left: 24, 1-2-3_left: 29"
-32277,32315,1-2-3_left,left,0.93,"1-2-3_left: 18, 0-6_left: 16, 1-5_left: 5"
-32364,32369,1-2-3_left,left,0.95,1-2-3_left: 6
-32371,32480,1-5_left,left,0.93,"1-2-3_left: 34, 1-5_left: 65, 2-4_left: 6, 0-6_left: 5"
-32482,32484,1-5_left,left,0.92,"1-5_left: 2, 0-6_left: 1"
-32526,32526,1-2-3_left,left,0.93,1-2-3_left: 1
-32531,32531,1-5_left,left,0.92,1-5_left: 1
-32560,32636,3-3_left,left,0.93,"0-6_left: 2, 2-4_left: 10, 1-2-3_left: 25, 1-5_left: 9, 3-3_left: 31"
-32638,32740,3-3_left,left,0.92,"1-2-3_left: 16, 1-2-3_right: 10, 2-4_left: 28, 3-3_left: 31, 3-3_right: 10, 2-4_right: 1, 1-5_left: 6, 0-6_left: 1"
-32777,32849,2-4_left,left,0.91,"2-4_left: 65, 3-3_left: 2, 1-2-3_left: 4, 1-5_left: 1, 0-6_left: 1"
-33105,33105,3-3_left,left,0.83,3-3_left: 1
-33142,33142,3-3_left,left,0.84,3-3_left: 1
-33926,33926,2-4_left,right,0.93,2-4_left: 1
-33927,33927,1-5_left,left,0.91,1-5_left: 1
-33928,33932,2-4_left,right,0.93,2-4_left: 5
-33933,33933,1-5_left,left,0.92,1-5_left: 1
-33934,33935,3-3_left,right,0.92,"3-3_left: 1, 2-4_left: 1"
-33936,33936,1-5_left,left,0.92,1-5_left: 1
-33937,33938,2-4_left,right,0.92,"2-4_left: 1, 3-3_left: 1"
-33939,33939,1-5_left,left,0.92,1-5_left: 1
-33940,33940,1-5_left,right,0.93,1-5_left: 1
-33941,33941,1-5_left,left,0.93,1-5_left: 1
-33942,33942,1-5_left,right,0.93,1-5_left: 1
-33943,33948,1-5_left,left,0.93,1-5_left: 6
-33949,33953,2-4_left,right,0.93,2-4_left: 5
-33954,33957,1-5_left,left,0.93,1-5_left: 4
-33958,33958,3-3_right,right,0.92,3-3_right: 1
-33959,33959,1-5_left,left,0.93,1-5_left: 1
-33960,33962,2-4_left,right,0.92,2-4_left: 3
-33963,33963,1-2-3_left,left,0.93,1-2-3_left: 1
-33964,33964,2-4_left,right,0.93,2-4_left: 1
-33965,33965,1-2-3_left,left,0.93,1-2-3_left: 1
-33967,33967,2-4_left,right,0.91,2-4_left: 1
-33969,33970,2-4_left,right,0.92,2-4_left: 2
-33973,33974,2-4_left,right,0.93,"2-4_left: 1, 3-3_left: 1"
-33977,33982,2-4_left,right,0.92,"1-5_left: 2, 2-4_left: 3, 3-3_left: 1"
-33984,33984,2-4_left,right,0.92,2-4_left: 1
-33987,33989,2-4_left,right,0.93,"2-4_left: 2, 1-5_left: 1"
-33991,34051,1-2-3_left,right,0.89,"1-5_left: 1, 2-4_left: 2, 1-2-3_left: 24, 3-3_left: 5, 3-3_right: 16"
-34182,34183,3-3_right,right,0.79,3-3_right: 2
-34188,34188,3-3_right,right,0.8,3-3_right: 1
-34190,34193,3-3_right,right,0.85,3-3_right: 4
-34197,34201,3-3_left,right,0.83,"1-2-3_left: 1, 3-3_left: 4"
-34203,34206,3-3_left,right,0.75,3-3_left: 4
-34209,34210,3-3_left,right,0.77,"3-3_left: 1, 3-3_right: 1"
-34211,34216,1-2-3_left,right,0.83,"3-3_left: 2, 1-2-3_left: 3, 2-4_left: 1"
-34221,34221,3-3_left,right,0.85,3-3_left: 1
-34226,34227,1-5_left,right,0.8,"1-5_left: 1, 1-2-3_left: 1"
-34440,34440,0-6_right,right,0.69,0-6_right: 1
-34460,34473,3-3_right,right,0.72,"3-3_right: 7, 1-2-3_left: 5, 1-2-3_right: 2"
-34475,34479,3-3_right,right,0.73,"3-3_right: 4, 1-2-3_left: 1"
-34483,34488,3-3_right,right,0.74,"3-3_right: 5, 1-2-3_left: 1"
-34507,34512,1-2-3_left,right,0.77,"1-2-3_left: 5, 1-5_left: 1"
-34515,34515,1-5_left,right,0.8,1-5_left: 1
-34518,34518,0-6_left,right,0.8,0-6_left: 1
-34524,34524,1-5_left,right,0.75,1-5_left: 1
-34526,34526,0-6_right,right,0.74,0-6_right: 1
-34528,34528,0-6_right,right,0.73,0-6_right: 1
-34530,34531,1-5_right,right,0.77,1-5_right: 2
-34533,34538,0-6_right,right,0.79,"1-2-3_right: 2, 0-6_right: 3, 3-3_right: 1"
-34580,34590,1-5_right,right,0.8,1-5_right: 11
-34591,34600,1-5_right,right,0.81,"1-2-3_right: 3, 1-5_right: 7"
-34605,34609,1-5_right,right,0.8,1-5_right: 5
-34611,34611,1-5_right,right,0.8,1-5_right: 1
-34622,34623,1-5_right,right,0.8,1-5_right: 2
-34631,34646,3-3_right,right,0.79,"2-4_right: 7, 3-3_right: 9"
-34663,34663,1-5_right,right,0.8,1-5_right: 1
-34679,34679,1-5_right,right,0.81,1-5_right: 1
-34682,34689,1-5_right,right,0.8,1-5_right: 8
-34691,34691,2-4_right,right,0.79,2-4_right: 1
-34701,34702,2-4_right,right,0.84,"2-4_right: 1, 3-3_right: 1"
-34704,34704,3-3_right,right,0.86,3-3_right: 1
-34707,34713,3-3_left,right,0.84,"3-3_left: 4, 1-2-3_right: 3"
-34714,34731,1-2-3_right,right,0.77,"1-2-3_right: 10, 3-3_right: 6, 1-5_right: 2"
-34732,34738,1-2-3_right,right,0.8,1-2-3_right: 7
-34740,34742,1-2-3_right,right,0.82,"1-2-3_right: 2, 3-3_right: 1"
-34744,34745,3-3_right,right,0.84,3-3_right: 2
-34747,34778,3-3_right,right,0.81,"3-3_right: 31, 2-4_right: 1"
-34780,34787,3-3_right,right,0.79,3-3_right: 8
-34789,34797,3-3_right,right,0.79,3-3_right: 9
-34799,34800,3-3_right,right,0.78,3-3_right: 2
-34839,34846,1-2-3_right,right,0.77,"1-2-3_right: 7, 1-2-3_left: 1"
-34848,34852,1-2-3_left,right,0.75,"1-2-3_left: 3, 1-2-3_right: 2"
-34856,34866,1-2-3_left,right,0.77,"1-2-3_right: 3, 1-2-3_left: 6, 1-5_left: 2"
-34868,34868,1-2-3_right,right,0.77,1-2-3_right: 1
-34870,34877,1-2-3_right,right,0.78,"1-2-3_right: 4, 1-5_left: 1, 1-2-3_left: 2, 3-3_left: 1"
-34888,34889,3-3_left,right,0.81,"3-3_left: 1, 3-3_right: 1"
-34892,34896,3-3_right,right,0.81,3-3_right: 5
-34899,34900,3-3_right,right,0.81,3-3_right: 2
-34902,34909,3-3_right,right,0.8,"3-3_right: 3, 1-2-3_right: 3, 1-2-3_left: 2"
-34911,34916,1-2-3_right,right,0.8,"1-2-3_right: 3, 3-3_left: 2, 1-2-3_left: 1"
-34921,34928,3-3_left,right,0.8,"0-6_left: 1, 1-2-3_left: 1, 3-3_left: 6"
-34929,34931,3-3_left,right,0.75,3-3_left: 3
-35056,35062,3-3_left,right,0.76,"3-3_left: 4, 1-2-3_left: 1, 3-3_right: 2"
-35063,35066,0-6_right,right,0.8,"3-3_right: 1, 0-6_right: 2"
-35068,35069,0-6_right,right,0.76,0-6_right: 2
-35071,35080,1-5_right,right,0.76,"0-6_right: 3, 1-5_right: 7"
-35117,35123,3-3_right,right,0.77,"3-3_right: 5, 1-5_right: 1, 3-3_left: 1"
-35137,35137,1-5_right,right,0.8,1-5_right: 1
-35142,35142,0-6_right,right,0.81,0-6_right: 1
-35153,35153,0-6_right,right,0.77,0-6_right: 1
-35158,35158,0-6_right,right,0.75,0-6_right: 1
-35160,35174,0-6_right,right,0.76,"0-6_right: 10, 1-5_left: 1, 1-5_right: 4"
-35178,35184,1-5_right,right,0.75,"1-5_right: 4, 0-6_left: 1, 1-5_left: 1, 0-6_right: 1"
-35186,35192,0-6_right,right,0.76,"0-6_left: 1, 0-6_right: 5, 1-5_left: 1"
-35194,35194,1-5_right,right,0.76,1-5_right: 1
-35212,35212,0-6_right,right,0.75,0-6_right: 1
-35227,35227,0-6_right,right,0.77,0-6_right: 1
-35231,35232,0-6_right,right,0.77,0-6_right: 2
-35239,35240,3-3_left,right,0.77,"3-3_left: 1, 0-6_right: 1"
-35243,35243,0-6_right,right,0.82,0-6_right: 1
-35268,35286,1-5_right,right,0.71,"1-5_right: 9, 1-2-3_right: 3, 3-3_left: 4, 1-5_left: 3"
-35313,35316,1-5_right,right,0.71,"1-5_right: 2, 1-2-3_left: 2"
-35319,35322,1-2-3_left,right,0.72,1-2-3_left: 4
-35324,35335,1-2-3_left,right,0.72,"1-2-3_left: 6, 3-3_left: 3, 1-5_right: 3"
-35382,35382,1-2-3_right,right,0.7,1-2-3_right: 1
-35956,35958,1-5_left,left,0.95,1-5_left: 3
-35960,35960,1-5_left,left,0.95,1-5_left: 1
-35962,35965,1-5_left,left,0.94,1-5_left: 4
-35967,36014,1-5_left,left,0.94,1-5_left: 48
-36017,36018,1-5_left,left,0.94,1-5_left: 2
-36025,36025,1-5_left,left,0.94,1-5_left: 1
-36028,36029,1-2-3_left,left,0.94,"1-2-3_left: 1, 1-5_left: 1"
-36035,36037,1-5_left,left,0.94,1-5_left: 3
-36041,36043,0-6_left,left,0.93,0-6_left: 3
-36046,36048,0-6_left,left,0.94,0-6_left: 3
-36050,36050,0-6_left,left,0.94,0-6_left: 1
-36053,36054,0-6_left,left,0.94,0-6_left: 2
-36068,36068,1-5_left,left,0.95,1-5_left: 1
-36071,36078,1-5_left,left,0.95,1-5_left: 8
-36080,36080,1-5_left,left,0.95,1-5_left: 1
-36132,36197,1-5_left,left,0.92,"1-5_left: 52, 3-3_left: 14"
-36198,36223,0-6_left,left,0.93,"3-3_left: 3, 0-6_left: 22, 1-2-3_left: 1"
-36225,36225,1-2-3_left,left,0.93,1-2-3_left: 1
-36227,36239,0-6_left,left,0.94,"1-2-3_left: 3, 0-6_left: 10"
-36241,36254,0-6_left,left,0.94,0-6_left: 14
-36256,36257,0-6_left,left,0.94,0-6_left: 2
-36263,36264,0-6_left,left,0.94,0-6_left: 2
-36266,36277,1-2-3_left,left,0.93,1-2-3_left: 12
-36279,36279,1-2-3_left,left,0.93,1-2-3_left: 1
-36281,36283,1-2-3_left,left,0.92,1-2-3_left: 3
-36321,36334,1-2-3_left,left,0.92,"2-4_left: 2, 1-2-3_left: 12"
-36335,36354,3-3_left,left,0.9,"2-4_left: 7, 3-3_left: 11, 1-2-3_left: 2"
-36355,36355,3-3_right,right,0.91,3-3_right: 1
-36356,36359,3-3_left,left,0.89,"3-3_left: 3, 2-4_left: 1"
-36360,36362,1-2-3_left,right,0.89,"3-3_right: 1, 1-2-3_left: 2"
-36364,36364,3-3_left,left,0.9,3-3_left: 1
-36414,36414,1-2-3_left,right,0.9,1-2-3_left: 1
-36416,36416,1-5_left,right,0.9,1-5_left: 1
-36436,36436,3-3_left,right,0.91,3-3_left: 1
-36437,36438,3-3_left,right,0.91,3-3_left: 2
-36439,36444,3-3_left,right,0.9,"3-3_left: 3, 2-4_left: 3"
-36451,36485,3-3_right,right,0.9,"3-3_left: 4, 3-3_right: 25, 2-4_right: 1, 1-5_right: 5"
-36487,36487,3-3_right,right,0.91,3-3_right: 1
-36489,36494,3-3_right,right,0.92,3-3_right: 6
-36496,36496,3-3_right,right,0.91,3-3_right: 1
-36513,36514,1-2-3_right,right,0.9,1-2-3_right: 2
-36571,36571,0-6_right,right,0.91,0-6_right: 1
-36574,36575,0-6_right,right,0.92,"0-6_right: 1, 1-2-3_right: 1"
-36577,36578,1-2-3_right,right,0.92,"1-2-3_right: 1, 0-6_right: 1"
-36580,36651,2-4_right,right,0.93,"0-6_right: 7, 2-4_right: 49, 3-3_right: 16"
-36652,36654,3-3_right,right,0.91,3-3_right: 3
-36655,36656,3-3_right,right,0.91,3-3_right: 2
-36657,36658,3-3_right,right,0.91,3-3_right: 2
-36659,36660,3-3_right,right,0.91,3-3_right: 2
-36661,36676,2-4_right,right,0.9,"3-3_right: 6, 2-4_right: 10"
-36677,36678,2-4_right,right,0.91,2-4_right: 2
-36679,36699,2-4_right,right,0.91,"2-4_right: 13, 3-3_right: 8"
-36700,36706,2-4_right,right,0.91,2-4_right: 7
-36707,36708,2-4_right,right,0.9,2-4_right: 2
-36709,36710,2-4_right,right,0.91,2-4_right: 2
-36711,36715,2-4_right,right,0.91,2-4_right: 5
-36717,36717,2-4_right,right,0.9,2-4_right: 1
-36719,36719,2-4_right,right,0.91,2-4_right: 1
-36720,36720,2-4_right,right,0.91,2-4_right: 1
-36723,36766,0-6_right,right,0.92,"2-4_right: 3, 0-6_right: 34, 3-3_right: 7"
-36767,36853,3-3_right,right,0.89,"3-3_right: 51, 0-6_right: 4, 1-2-3_right: 16, 2-4_right: 2, 3-3_left: 12, 1-5_right: 2"
-37029,37029,3-3_left,right,0.9,3-3_left: 1
-37032,37034,3-3_left,right,0.89,3-3_left: 3
-37045,37045,3-3_right,right,0.92,3-3_right: 1
-37048,37048,3-3_right,right,0.91,3-3_right: 1
-37080,37112,1-2-3_right,right,0.91,"1-2-3_right: 26, 3-3_right: 7"
-37113,37157,3-3_right,right,0.92,"3-3_right: 35, 1-2-3_left: 9, 3-3_left: 1"
-37160,37176,2-4_left,right,0.91,"2-4_left: 14, 3-3_left: 3"
-37652,37657,0-6_left,right,0.79,"0-6_left: 3, 3-3_left: 2, 1-5_right: 1"
-37674,37689,3-3_right,right,0.85,"3-3_right: 8, 1-2-3_left: 8"
-37690,37696,3-3_left,right,0.77,"1-2-3_left: 1, 3-3_right: 1, 3-3_left: 3, 1-2-3_right: 2"
-37781,37795,1-5_left,left,0.94,"2-4_left: 3, 1-5_left: 12"
-37797,37797,1-5_left,left,0.95,1-5_left: 1
-37820,37886,1-2-3_left,left,0.93,"1-2-3_left: 33, 1-5_left: 16, 3-3_left: 18"
-37902,37943,3-3_right,left,0.91,"3-3_right: 34, 2-4_right: 8"
-37952,37952,2-4_right,right,0.91,2-4_right: 1
-37954,37954,3-3_left,left,0.9,3-3_left: 1
-37956,37959,3-3_left,left,0.92,3-3_left: 4
-37960,37960,2-4_right,right,0.94,2-4_right: 1
-37961,37963,3-3_left,left,0.94,3-3_left: 3
-37964,37964,2-4_right,right,0.93,2-4_right: 1
-37965,37993,3-3_left,left,0.95,"3-3_left: 16, 1-2-3_left: 1, 2-4_left: 9, 1-5_left: 3"
-38012,38012,0-6_left,left,0.95,0-6_left: 1
-38014,38014,0-6_left,left,0.95,0-6_left: 1
-38018,38018,0-6_left,left,0.95,0-6_left: 1
-38021,38118,1-5_left,left,0.94,"0-6_left: 8, 1-5_left: 40, 2-4_left: 21, 3-3_left: 5, 1-2-3_left: 24"
-38156,38168,3-3_left,left,0.92,"2-4_left: 2, 3-3_left: 11"
-38170,38185,3-3_left,left,0.93,"3-3_left: 15, 2-4_left: 1"
-38780,38780,2-4_right,right,0.91,2-4_right: 1
-38783,38785,2-4_right,right,0.91,2-4_right: 3
-38787,38788,2-4_right,right,0.91,2-4_right: 2
-38791,38791,2-4_right,right,0.91,2-4_right: 1
-38850,38854,3-3_right,right,0.9,"3-3_right: 4, 2-4_right: 1"
-38856,38865,3-3_right,right,0.9,"3-3_right: 8, 2-4_right: 2"
-38867,38875,2-4_right,right,0.91,"3-3_right: 4, 2-4_right: 5"
-38877,38886,3-3_right,right,0.91,"3-3_right: 9, 2-4_right: 1"
-38888,38903,1-2-3_right,right,0.91,"2-4_right: 6, 1-2-3_right: 10"
-38910,38915,1-2-3_right,right,0.92,"1-2-3_right: 5, 2-4_right: 1"
-38916,38916,1-2-3_right,right,0.9,1-2-3_right: 1
-38919,38961,3-3_left,right,0.91,"2-4_right: 11, 3-3_left: 31, 1-2-3_right: 1"
-38962,38985,3-3_left,right,0.92,"3-3_left: 12, 1-2-3_left: 10, 2-4_left: 2"
-39585,39605,0-6_left,left,0.94,"0-6_left: 11, 1-5_left: 1, 3-3_left: 9"
-39607,39629,0-6_left,left,0.93,"3-3_left: 2, 0-6_left: 12, 1-5_left: 3, 1-2-3_left: 6"
-39630,39631,1-2-3_left,left,0.94,1-2-3_left: 2
-39633,39635,1-2-3_left,left,0.93,1-2-3_left: 3
-39655,39655,1-2-3_left,left,0.93,1-2-3_left: 1
-39657,39711,2-4_left,left,0.94,"2-4_left: 44, 1-5_left: 2, 0-6_left: 8, 1-2-3_left: 1"
-39713,39718,2-4_left,left,0.94,2-4_left: 6
-39721,39721,2-4_left,left,0.93,2-4_left: 1
-39724,39725,2-4_left,left,0.94,2-4_left: 2
-40262,40262,1-2-3_left,left,0.93,1-2-3_left: 1
-40283,40283,1-2-3_left,left,0.93,1-2-3_left: 1
-40342,40342,1-5_left,left,0.93,1-5_left: 1
-40345,40347,1-5_left,left,0.94,1-5_left: 3
-40349,40349,1-5_left,left,0.94,1-5_left: 1
-40405,40407,1-5_left,left,0.93,1-5_left: 3
-40409,40454,3-3_left,left,0.93,"1-5_left: 5, 1-2-3_left: 15, 3-3_left: 26"
-40456,40456,3-3_left,left,0.94,3-3_left: 1
-40471,40544,2-4_left,left,0.93,"2-4_left: 50, 1-5_left: 14, 1-2-3_left: 8, 3-3_left: 2"
-40599,40601,1-2-3_left,left,0.89,1-2-3_left: 3
-40612,40664,3-3_left,left,0.9,"1-5_left: 7, 3-3_left: 25, 1-2-3_left: 19, 3-3_right: 2"
-40667,40667,3-3_left,left,0.93,3-3_left: 1
-40668,40668,1-2-3_left,right,0.93,1-2-3_left: 1
-40669,40670,1-5_left,left,0.93,"1-5_left: 1, 3-3_left: 1"
-40671,40671,1-2-3_left,right,0.93,1-2-3_left: 1
-40672,40674,1-5_left,left,0.93,1-5_left: 3
-40675,40676,1-5_left,right,0.93,1-5_left: 2
-40798,40824,3-3_right,right,0.91,"3-3_right: 21, 2-4_right: 6"
-41317,41317,1-5_left,left,0.94,1-5_left: 1
-41321,41321,1-5_left,left,0.95,1-5_left: 1
-41323,41346,1-5_left,left,0.94,1-5_left: 24
-41347,41391,0-6_left,left,0.91,"1-5_left: 2, 1-2-3_left: 4, 0-6_left: 39"
-41393,41393,0-6_left,left,0.88,0-6_left: 1
-41395,41400,2-4_left,left,0.88,"2-4_left: 3, 0-6_left: 1, 3-3_left: 1, 1-2-3_left: 1"
-41402,41402,2-4_left,left,0.89,2-4_left: 1
-41416,41416,2-4_left,left,0.91,2-4_left: 1
-41417,41417,1-2-3_left,left,0.9,1-2-3_left: 1
-41419,41422,1-2-3_left,left,0.9,1-2-3_left: 4
-41424,41533,2-4_left,left,0.94,"2-4_left: 40, 1-2-3_left: 17, 0-6_left: 16, 1-5_left: 2, 3-3_left: 35"
-41534,41551,3-3_right,left,0.92,"3-3_left: 6, 3-3_right: 8, 1-2-3_left: 4"
-41552,41573,3-3_left,left,0.91,"3-3_left: 17, 2-4_left: 4, 3-3_right: 1"
-41581,41584,3-3_right,right,0.92,"2-4_right: 1, 3-3_right: 2, 3-3_left: 1"
-42281,42294,1-2-3_left,left,0.93,1-2-3_left: 14
-42449,42463,3-3_left,left,0.91,3-3_left: 15
-42575,42595,3-3_left,right,0.9,"3-3_left: 12, 3-3_right: 7, 2-4_right: 2"
-42596,42609,3-3_right,right,0.91,3-3_right: 14
-42612,42613,3-3_right,right,0.91,3-3_right: 2
-42614,42615,3-3_right,right,0.92,3-3_right: 2
-42617,42617,3-3_right,right,0.92,3-3_right: 1
-42625,42625,3-3_right,right,0.93,3-3_right: 1
-42641,42653,2-4_right,right,0.91,"2-4_right: 6, 3-3_right: 4, 3-3_left: 3"
-42654,42693,1-2-3_right,right,0.88,"1-2-3_right: 23, 3-3_right: 11, 3-3_left: 6"
-42694,42696,1-2-3_right,right,0.89,"1-2-3_right: 2, 2-4_right: 1"
-42698,42700,3-3_left,right,0.91,3-3_left: 3
-42754,42756,1-2-3_right,right,0.91,1-2-3_right: 3
-42765,42765,1-2-3_right,right,0.91,1-2-3_right: 1
-42780,42780,1-2-3_right,right,0.9,1-2-3_right: 1
-42784,42784,1-2-3_right,right,0.9,1-2-3_right: 1
-42802,42802,1-2-3_right,right,0.88,1-2-3_right: 1
-42804,42804,1-2-3_right,right,0.89,1-2-3_right: 1
-42808,42809,1-2-3_right,right,0.89,1-2-3_right: 2
-42811,42811,0-6_right,right,0.89,0-6_right: 1
-42819,42820,3-3_right,right,0.9,"3-3_right: 1, 0-6_right: 1"
-42824,42824,1-2-3_right,right,0.91,1-2-3_right: 1
-42827,42827,3-3_right,right,0.9,3-3_right: 1
-42831,42832,1-2-3_right,right,0.9,1-2-3_right: 2
-42834,42866,1-2-3_right,right,0.9,"1-2-3_right: 18, 3-3_left: 15"
-42867,42983,3-3_left,right,0.92,"3-3_left: 60, 3-3_right: 48, 1-2-3_right: 7, 2-4_left: 2"
-42984,43015,2-4_left,right,0.89,"2-4_left: 16, 3-3_left: 4, 1-2-3_left: 12"
-43081,43081,3-3_right,right,0.73,3-3_right: 1
-43379,43379,1-5_right,right,0.7,1-5_right: 1
-43381,43381,1-5_right,right,0.72,1-5_right: 1
-43638,43667,0-6_left,left,0.96,"0-6_left: 26, 1-5_left: 4"
-43669,43669,0-6_left,left,0.94,0-6_left: 1
-43688,43689,1-2-3_left,left,0.93,1-2-3_left: 2
-43691,43720,3-3_left,left,0.93,"1-2-3_left: 11, 3-3_left: 15, 2-4_left: 1, 1-5_left: 3"
-43722,43722,2-4_left,left,0.91,2-4_left: 1
-43725,43725,3-3_left,left,0.92,3-3_left: 1
-43728,43728,3-3_left,left,0.91,3-3_left: 1
-43750,43750,0-6_left,left,0.92,0-6_left: 1
-43753,43771,0-6_left,left,0.93,"0-6_left: 9, 3-3_left: 1, 1-2-3_left: 5, 2-4_left: 4"
-43796,43798,1-2-3_left,left,0.92,1-2-3_left: 3
-43800,43875,1-2-3_left,left,0.91,"1-2-3_left: 37, 2-4_left: 2, 3-3_left: 37"
-43876,43877,3-3_left,left,0.88,3-3_left: 2
-43878,43894,3-3_right,left,0.88,"3-3_left: 6, 3-3_right: 8, 2-4_right: 3"
-44190,44193,2-4_left,right,0.88,2-4_left: 4
-44195,44195,2-4_left,right,0.89,2-4_left: 1
-44198,44199,2-4_left,right,0.85,"2-4_left: 1, 3-3_left: 1"
-44201,44230,3-3_right,right,0.87,"2-4_left: 2, 3-3_left: 2, 3-3_right: 26"
-44231,44253,3-3_right,right,0.86,3-3_right: 23
-44254,44256,3-3_right,right,0.84,"3-3_right: 2, 3-3_left: 1"
-44305,44376,1-5_right,right,0.91,"3-3_left: 11, 1-5_right: 20, 0-6_right: 13, 1-2-3_right: 15, 3-3_right: 13"
-44377,44401,3-3_left,right,0.9,"3-3_left: 15, 1-2-3_right: 10"
-44402,44504,1-2-3_right,right,0.89,"1-2-3_right: 59, 3-3_right: 17, 3-3_left: 24, 2-4_left: 3"
-44505,44559,3-3_right,right,0.9,"3-3_left: 11, 3-3_right: 29, 1-2-3_right: 15"
-44560,44574,1-2-3_left,right,0.88,"3-3_right: 2, 3-3_left: 4, 1-2-3_left: 9"
-44983,44994,1-5_left,right,0.83,"3-3_left: 5, 1-5_left: 7"
-45006,45006,1-5_left,right,0.85,1-5_left: 1
-45010,45011,1-5_left,right,0.85,1-5_left: 2
-45096,45096,3-3_left,right,0.91,3-3_left: 1
-45108,45109,3-3_left,right,0.92,3-3_left: 2
-45129,45129,1-2-3_right,right,0.92,1-2-3_right: 1
-45151,45151,1-5_left,left,0.95,1-5_left: 1
-45316,45319,1-2-3_left,left,0.92,"1-2-3_left: 2, 2-4_left: 2"
-45323,45348,1-2-3_left,left,0.9,"1-2-3_left: 19, 3-3_left: 4, 3-3_right: 2, 1-2-3_right: 1"
-45349,45357,1-2-3_right,left,0.9,1-2-3_right: 9
-45359,45371,3-3_right,left,0.89,"3-3_right: 9, 1-2-3_right: 1, 3-3_left: 3"
-45753,45808,3-3_right,right,0.87,"3-3_right: 50, 3-3_left: 6"
-45809,45864,3-3_left,right,0.88,"3-3_left: 45, 3-3_right: 11"
-45865,45901,3-3_right,right,0.9,"3-3_right: 20, 2-4_right: 14, 1-2-3_left: 3"
-45902,45928,3-3_right,right,0.9,"3-3_right: 15, 3-3_left: 12"
-45929,45949,3-3_left,right,0.89,"3-3_right: 8, 3-3_left: 13"
-45952,45953,3-3_left,right,0.9,3-3_left: 2
-45955,45956,3-3_left,right,0.9,3-3_left: 2
-45964,45964,3-3_left,right,0.88,3-3_left: 1
-45966,45968,3-3_left,right,0.88,"3-3_left: 2, 3-3_right: 1"
-45970,45972,3-3_right,right,0.9,3-3_right: 3
-45974,45983,3-3_right,right,0.9,3-3_right: 10
-45986,45987,3-3_right,right,0.9,3-3_right: 2
-45989,46132,3-3_right,right,0.9,"3-3_right: 45, 1-5_right: 42, 0-6_right: 1, 2-4_right: 44, 3-3_left: 12"
-46133,46216,1-2-3_right,right,0.91,"2-4_right: 5, 1-2-3_right: 46, 3-3_right: 31, 1-5_right: 2"
-46217,46255,3-3_right,right,0.89,3-3_right: 39
-46454,46454,1-2-3_left,left,0.83,1-2-3_left: 1
-46562,46687,1-2-3_right,right,0.92,"1-2-3_right: 64, 3-3_left: 57, 3-3_right: 5"
-46688,46745,1-2-3_right,right,0.91,"1-2-3_right: 50, 3-3_right: 8"
-46746,46784,1-2-3_right,right,0.92,1-2-3_right: 39
-46785,46862,2-4_right,right,0.91,"1-2-3_right: 23, 3-3_left: 15, 2-4_right: 26, 3-3_right: 14"
-46863,46885,3-3_right,right,0.92,"3-3_right: 21, 2-4_right: 2"
-46887,46888,2-4_right,right,0.92,2-4_right: 2
-46892,46893,2-4_right,right,0.92,2-4_right: 2
-46912,46913,0-6_right,right,0.91,0-6_right: 2
-46920,46920,3-3_right,right,0.91,3-3_right: 1
-46924,46924,2-4_right,right,0.92,2-4_right: 1
-46930,46933,2-4_right,right,0.92,2-4_right: 4
-46936,46936,2-4_right,right,0.92,2-4_right: 1
-46941,46941,3-3_right,right,0.91,3-3_right: 1
-46943,46944,3-3_right,right,0.91,3-3_right: 2
-46948,46948,3-3_right,right,0.91,3-3_right: 1
-46951,46952,3-3_right,right,0.91,3-3_right: 2
-46954,46954,3-3_right,right,0.91,3-3_right: 1
-46956,46957,3-3_right,right,0.91,3-3_right: 2
-46959,46992,3-3_right,right,0.92,"3-3_right: 26, 2-4_right: 8"
-47000,47016,3-3_right,right,0.91,"3-3_right: 14, 3-3_left: 1, 2-4_right: 1, 2-4_left: 1"
-47017,47043,3-3_right,right,0.91,"2-4_left: 4, 2-4_right: 1, 3-3_left: 8, 3-3_right: 14"
-47045,47046,3-3_left,right,0.9,3-3_left: 2
-47057,47072,3-3_left,right,0.88,"3-3_left: 9, 2-4_left: 1, 1-2-3_left: 6"
-47278,47287,1-5_right,right,0.81,"1-5_right: 5, 2-4_right: 1, 3-3_right: 4"
-47697,47809,1-2-3_left,left,0.91,"2-4_left: 30, 1-5_left: 12, 1-2-3_left: 48, 3-3_left: 21, 3-3_right: 2"
-47811,47845,2-4_left,left,0.9,"1-2-3_left: 13, 3-3_left: 3, 2-4_left: 14, 0-6_left: 5"
-47847,47869,1-2-3_left,left,0.9,"0-6_left: 2, 1-2-3_left: 21"
-47871,47871,1-2-3_left,left,0.9,1-2-3_left: 1
-47873,47875,1-2-3_left,left,0.9,"0-6_left: 1, 1-2-3_left: 2"
-47877,47877,0-6_left,left,0.9,0-6_left: 1
-47880,47883,0-6_left,left,0.9,"0-6_left: 3, 1-2-3_left: 1"
-47886,47901,0-6_left,left,0.9,0-6_left: 16
-47903,47904,0-6_left,left,0.9,0-6_left: 2
-47906,47923,1-2-3_left,left,0.9,"0-6_left: 2, 1-2-3_left: 16"
-47928,47932,1-2-3_left,left,0.91,"1-2-3_left: 4, 2-4_left: 1"
-47934,48095,2-4_left,left,0.92,"2-4_left: 66, 1-5_left: 39, 1-2-3_left: 57"
-48097,48116,1-2-3_left,left,0.91,"1-2-3_left: 13, 1-5_left: 7"
-48118,48216,1-2-3_left,left,0.92,"1-2-3_left: 59, 3-3_left: 36, 2-4_left: 4"
-48309,48326,2-4_left,left,0.92,"1-2-3_left: 3, 2-4_left: 15"
-48327,48328,2-4_left,left,0.92,2-4_left: 2
-48331,48331,2-4_left,left,0.92,2-4_left: 1
-48363,48363,1-2-3_left,left,0.93,1-2-3_left: 1
-48365,48397,1-2-3_left,left,0.91,"1-2-3_left: 18, 0-6_left: 9, 1-5_left: 3, 3-3_left: 3"
-48399,48399,1-2-3_left,left,0.91,1-2-3_left: 1
-48401,48403,1-2-3_left,left,0.91,1-2-3_left: 3
-48404,48405,3-3_left,right,0.9,3-3_left: 2
-48513,48514,3-3_right,right,0.87,3-3_right: 2
-48516,48543,3-3_right,right,0.88,"3-3_right: 27, 1-2-3_right: 1"
-48758,48758,1-5_left,right,0.84,1-5_left: 1
-48760,48762,1-5_left,right,0.84,1-5_left: 3
-48764,48805,1-2-3_left,right,0.83,"1-5_left: 1, 1-2-3_left: 7"
-48967,49047,1-5_left,left,0.92,"1-5_left: 78, 2-4_left: 3"
-49100,49109,1-5_left,left,0.91,1-5_left: 10
-49111,49178,1-5_left,left,0.93,1-5_left: 68
-49180,49244,1-2-3_left,left,0.93,"1-5_left: 20, 1-2-3_left: 31, 3-3_left: 13, 2-4_left: 1"
-49251,49253,1-2-3_left,left,0.91,1-2-3_left: 3
-49256,49274,3-3_left,left,0.92,"2-4_left: 5, 3-3_left: 13, 1-2-3_left: 1"
-49316,49344,2-4_left,left,0.92,"2-4_left: 22, 1-2-3_left: 2, 3-3_left: 5"
-49346,49346,2-4_left,left,0.9,2-4_left: 1
-49348,49348,2-4_left,left,0.89,2-4_left: 1
-49350,49373,3-3_right,left,0.9,"3-3_left: 4, 3-3_right: 12, 1-2-3_left: 8"
-49379,49379,1-2-3_left,left,0.91,1-2-3_left: 1
-49383,49400,1-2-3_left,left,0.91,1-2-3_left: 18
-49685,49697,1-5_right,right,0.83,"1-5_right: 9, 0-6_right: 4"
-49704,49705,1-5_right,right,0.83,"1-5_right: 1, 1-2-3_right: 1"
-50212,50235,2-4_left,left,0.93,"1-2-3_left: 4, 2-4_left: 20"
-50237,50237,1-2-3_left,left,0.93,1-2-3_left: 1
-50239,50239,1-2-3_left,left,0.93,1-2-3_left: 1
-50241,50404,1-2-3_left,left,0.92,"1-2-3_left: 84, 1-5_left: 25, 2-4_left: 38, 0-6_left: 14, 3-3_left: 3"
-50573,50614,1-2-3_left,left,0.93,"2-4_left: 3, 1-2-3_left: 35, 3-3_left: 4"
-50616,50616,3-3_left,left,0.91,3-3_left: 1
-50624,50624,1-2-3_left,left,0.92,1-2-3_left: 1
-50687,50687,1-5_left,left,0.89,1-5_left: 1
-50689,50727,1-2-3_left,left,0.9,"2-4_left: 10, 1-2-3_left: 29"
-50728,50766,0-6_left,left,0.91,"2-4_left: 1, 1-2-3_left: 3, 0-6_left: 22, 1-5_left: 13"
-51008,51008,3-3_left,left,0.82,3-3_left: 1
-51011,51019,2-4_left,left,0.92,"3-3_left: 1, 2-4_left: 8"
-51044,51055,1-2-3_left,left,0.85,"1-2-3_left: 11, 1-5_left: 1"
-51057,51067,0-6_left,left,0.84,"1-2-3_left: 2, 0-6_left: 6, 1-5_left: 3"
-51069,51081,0-6_left,left,0.88,0-6_left: 13
-51083,51083,0-6_left,left,0.88,0-6_left: 1
-51086,51086,1-5_left,left,0.89,1-5_left: 1
-51089,51089,1-5_left,left,0.9,1-5_left: 1
-51091,51171,3-3_left,left,0.89,"1-5_left: 30, 3-3_left: 35, 3-3_right: 16"
-51172,51187,1-2-3_right,left,0.89,"3-3_left: 5, 3-3_right: 3, 1-2-3_right: 8"
-51417,51468,3-3_right,right,0.91,"3-3_right: 41, 1-2-3_right: 4, 2-4_right: 7"
-51473,51555,3-3_left,right,0.89,"3-3_right: 15, 3-3_left: 20, 2-4_right: 1, 1-2-3_right: 19, 2-4_left: 10, 1-5_right: 8, 0-6_right: 2, 1-2-3_left: 8"
-51557,51557,1-2-3_right,right,0.9,1-2-3_right: 1
-51561,51562,2-4_right,right,0.91,2-4_right: 2
-51565,51566,2-4_right,right,0.92,2-4_right: 2
-51569,51569,2-4_right,right,0.92,2-4_right: 1
-51571,51574,3-3_right,right,0.92,3-3_right: 4
-51576,51650,3-3_right,right,0.91,"3-3_right: 48, 1-2-3_right: 27"
-51651,51651,1-2-3_right,right,0.91,1-2-3_right: 1
-51652,51652,1-2-3_right,right,0.91,1-2-3_right: 1
-51653,51694,1-2-3_right,right,0.91,1-2-3_right: 42
-51696,51696,1-2-3_right,right,0.91,1-2-3_right: 1
-51698,51788,1-2-3_right,right,0.89,"1-2-3_right: 65, 3-3_right: 14, 3-3_left: 12"
-51789,51789,3-3_right,right,0.89,3-3_right: 1
-51790,51791,3-3_right,right,0.9,3-3_right: 2
-51792,51901,3-3_right,right,0.91,"3-3_right: 61, 3-3_left: 29, 1-2-3_right: 6, 2-4_right: 9, 2-4_left: 5"
-51911,51911,1-2-3_left,right,0.86,1-2-3_left: 1
-52103,52143,1-2-3_left,left,0.91,"2-4_left: 3, 0-6_left: 1, 1-2-3_left: 37"
-52148,52150,3-3_right,left,0.91,3-3_right: 3
-52153,52153,3-3_right,left,0.91,3-3_right: 1
-52519,52519,2-4_left,left,0.89,2-4_left: 1
-52599,52600,0-6_left,left,0.92,0-6_left: 2
-52603,52631,0-6_left,left,0.92,"0-6_left: 24, 2-4_left: 4, 1-5_left: 1"
-52633,52637,0-6_left,left,0.93,0-6_left: 5
-52644,52644,0-6_left,left,0.92,0-6_left: 1
-52654,52655,0-6_left,left,0.91,"0-6_left: 1, 1-5_left: 1"
-52659,52659,1-5_left,left,0.91,1-5_left: 1
-52664,52664,1-5_left,left,0.92,1-5_left: 1
-52666,52674,1-5_left,left,0.92,"2-4_left: 3, 1-5_left: 6"
-52676,52716,0-6_left,left,0.94,"1-5_left: 18, 0-6_left: 23"
-52718,52723,1-5_left,left,0.95,1-5_left: 6
-52726,52726,1-5_left,left,0.95,1-5_left: 1
-52763,52764,1-5_left,left,0.95,1-5_left: 2
-52769,52770,1-5_left,left,0.95,1-5_left: 2
-52774,52774,1-5_left,left,0.95,1-5_left: 1
-52832,52835,1-5_left,left,0.94,1-5_left: 4
-52837,52838,1-5_left,left,0.93,1-5_left: 2
-52840,52844,1-5_left,left,0.93,1-5_left: 5
-52846,52846,1-5_left,left,0.93,1-5_left: 1
-52849,52849,0-6_left,left,0.95,0-6_left: 1
-52869,52870,0-6_left,left,0.92,0-6_left: 2
-52872,52894,1-2-3_left,left,0.93,"1-2-3_left: 14, 0-6_left: 1, 2-4_left: 6, 3-3_left: 2"
-52898,52902,1-2-3_left,left,0.92,1-2-3_left: 5
-52904,52911,1-2-3_left,left,0.9,"1-2-3_left: 6, 2-4_left: 1, 3-3_left: 1"
-52912,52926,3-3_left,left,0.91,"1-2-3_left: 1, 3-3_left: 11, 3-3_right: 3"
-52927,52963,3-3_right,left,0.89,"3-3_right: 25, 3-3_left: 2, 2-4_right: 6, 1-2-3_right: 3, 1-2-3_left: 1"
-53329,53330,0-6_right,right,0.85,0-6_right: 2
-53332,53379,0-6_right,right,0.9,"1-5_right: 6, 3-3_right: 5, 1-2-3_right: 2, 2-4_right: 15, 0-6_right: 18, 1-2-3_left: 2"
-53427,53451,3-3_right,right,0.9,"1-5_right: 7, 3-3_right: 17, 0-6_right: 1"
-53544,53544,1-5_right,right,0.88,1-5_right: 1
-53546,53546,1-5_right,right,0.87,1-5_right: 1
-53575,53577,1-2-3_right,right,0.86,1-2-3_right: 3
-53579,53603,1-2-3_right,right,0.88,"1-2-3_right: 12, 1-5_right: 1, 1-2-3_left: 5, 3-3_left: 7"
-53604,53650,3-3_left,right,0.9,"3-3_left: 19, 2-4_left: 19, 1-2-3_right: 1, 2-4_right: 3, 3-3_right: 5"
-53651,53659,3-3_right,right,0.88,3-3_right: 9
-53771,53827,0-6_left,right,0.86,"0-6_left: 41, 1-2-3_left: 7, 3-3_left: 9"
-53869,53869,3-3_left,right,0.74,3-3_left: 1
-53875,53875,3-3_left,right,0.72,3-3_left: 1
-53906,53906,3-3_left,right,0.73,3-3_left: 1
-54443,54444,1-2-3_left,left,0.92,"1-2-3_left: 1, 0-6_left: 1"
-54448,54449,0-6_left,left,0.93,"0-6_left: 1, 1-2-3_left: 1"
-54453,54453,3-3_left,left,0.93,3-3_left: 1
-54455,54483,3-3_left,left,0.94,"3-3_left: 16, 1-5_left: 2, 1-2-3_left: 11"
-54484,54513,1-2-3_left,left,0.9,"1-2-3_left: 13, 2-4_left: 4, 1-2-3_right: 5, 2-4_right: 8"
-54925,54974,1-2-3_right,right,0.93,"1-2-3_right: 44, 1-5_right: 6"
-54976,54977,1-5_right,right,0.93,"1-5_right: 1, 1-2-3_right: 1"
-54981,54982,1-2-3_right,right,0.93,1-2-3_right: 2
-54984,54985,1-5_right,right,0.93,1-5_right: 2
-54987,54987,1-5_right,right,0.93,1-5_right: 1
-54990,54990,1-2-3_right,right,0.92,1-2-3_right: 1
-55007,55007,1-5_right,right,0.91,1-5_right: 1
-55015,55017,1-5_right,right,0.91,"1-2-3_right: 1, 1-5_right: 2"
-55019,55019,1-5_right,right,0.9,1-5_right: 1
-55024,55030,1-2-3_right,right,0.9,1-2-3_right: 7
-55031,55031,1-2-3_right,right,0.9,1-2-3_right: 1
-55032,55036,1-2-3_right,right,0.9,1-2-3_right: 5
-55037,55040,1-2-3_right,right,0.9,1-2-3_right: 4
-55041,55049,1-2-3_right,right,0.89,1-2-3_right: 9
-55050,55133,1-2-3_right,right,0.9,"1-2-3_right: 77, 3-3_right: 2, 2-4_right: 5"
-55137,55138,2-4_right,right,0.9,"2-4_right: 1, 1-2-3_right: 1"
-55143,55188,3-3_right,right,0.89,"2-4_right: 8, 3-3_right: 22, 3-3_left: 16"
-55189,55222,3-3_left,right,0.91,"3-3_left: 20, 2-4_right: 3, 3-3_right: 8, 2-4_left: 3"
-55223,55306,3-3_left,right,0.9,"3-3_left: 72, 2-4_left: 1, 1-2-3_left: 11"
-55382,55382,3-3_left,right,0.91,3-3_left: 1
-55389,55389,2-4_right,right,0.92,2-4_right: 1
-55392,55393,2-4_right,right,0.92,2-4_right: 2
-55395,55428,3-3_left,right,0.92,"2-4_right: 10, 1-2-3_left: 1, 3-3_left: 20, 2-4_left: 3"
-55443,55447,3-3_right,right,0.91,"3-3_right: 3, 1-2-3_left: 2"
-55454,55483,3-3_left,right,0.91,"1-2-3_left: 3, 2-4_left: 2, 3-3_left: 21, 3-3_right: 4"
-55484,55555,3-3_left,right,0.9,"3-3_left: 38, 3-3_right: 8, 0-6_left: 26"
-55638,55811,3-3_right,right,0.87,"1-2-3_right: 15, 2-4_right: 25, 3-3_right: 102, 3-3_left: 26, 0-6_left: 6"
-55814,55821,3-3_left,right,0.88,"3-3_left: 4, 3-3_right: 4"
-55823,55832,0-6_left,right,0.88,"0-6_left: 5, 3-3_left: 5"
-55834,55845,3-3_left,right,0.85,"0-6_left: 3, 3-3_left: 9"
-55848,55858,3-3_left,right,0.85,"3-3_left: 10, 1-5_left: 1"
-55860,55862,3-3_left,right,0.85,3-3_left: 3
-55865,55866,3-3_left,right,0.85,3-3_left: 2
-55870,55870,2-4_left,right,0.85,2-4_left: 1
-55992,56003,1-2-3_left,right,0.91,"3-3_right: 2, 3-3_left: 2, 2-4_left: 2, 1-2-3_left: 6"
-56005,56031,3-3_left,right,0.87,"1-2-3_left: 10, 3-3_left: 12, 2-4_left: 5"
-56032,56032,1-2-3_left,right,0.9,1-2-3_left: 1
-56033,56035,2-4_left,right,0.86,2-4_left: 3
-56036,56053,3-3_right,right,0.86,"3-3_right: 16, 2-4_right: 2"
-56055,56066,3-3_right,right,0.85,3-3_right: 12
-56068,56068,3-3_right,right,0.82,3-3_right: 1
-56118,56122,3-3_left,right,0.88,"3-3_left: 4, 1-5_right: 1"
-56123,56168,1-5_right,right,0.88,"3-3_left: 7, 1-5_right: 12, 1-2-3_right: 10, 1-2-3_left: 11, 3-3_right: 6"
-56184,56184,3-3_right,right,0.87,3-3_right: 1
-56187,56197,3-3_right,right,0.86,"1-5_right: 1, 3-3_right: 6, 3-3_left: 4"
-56198,56244,3-3_left,right,0.83,"3-3_left: 28, 1-2-3_left: 17, 2-4_left: 2"
-56341,56342,2-4_left,right,0.81,"2-4_left: 1, 3-3_left: 1"
-56348,56349,1-5_left,right,0.84,1-5_left: 2
-56352,56354,1-5_left,right,0.86,1-5_left: 3
-56357,56358,1-5_left,right,0.88,1-5_left: 2
-56366,56366,1-5_left,right,0.89,1-5_left: 1
-57465,57467,0-6_right,right,0.78,"0-6_right: 1, 1-2-3_left: 1, 3-3_left: 1"
-57477,57568,0-6_right,right,0.87,"3-3_right: 5, 1-2-3_left: 1, 0-6_right: 58, 1-5_right: 8, 3-3_left: 8, 2-4_right: 8, 1-2-3_right: 4"
-57569,57588,3-3_left,right,0.87,"3-3_left: 8, 1-2-3_right: 1, 3-3_right: 3, 0-6_left: 8"
-57590,57591,3-3_left,right,0.87,3-3_left: 2
-57593,57593,3-3_left,right,0.87,3-3_left: 1
-57594,57594,3-3_left,right,0.87,3-3_left: 1
-57598,57601,3-3_right,right,0.86,3-3_right: 4
-57604,57604,3-3_right,right,0.87,3-3_right: 1
-57619,57620,3-3_right,right,0.86,3-3_right: 2
-57622,57624,3-3_left,right,0.87,"3-3_left: 2, 3-3_right: 1"
-57634,57635,3-3_right,right,0.86,3-3_right: 2
-57775,57780,2-4_right,right,0.89,"2-4_right: 3, 0-6_right: 3"
-57783,57783,2-4_right,right,0.9,2-4_right: 1
-57836,57853,3-3_right,right,0.9,"3-3_right: 16, 2-4_right: 2"
-57933,57940,1-2-3_right,right,0.92,"1-2-3_right: 7, 3-3_right: 1"
-57941,57946,3-3_right,right,0.91,"3-3_right: 5, 1-2-3_right: 1"
-57947,57965,1-2-3_left,right,0.91,"3-3_right: 5, 1-2-3_left: 12, 2-4_left: 2"
-58526,58542,1-2-3_left,left,0.9,"1-2-3_left: 5, 3-3_right: 4, 3-3_left: 4, 2-4_left: 4"
-58544,58549,3-3_right,left,0.89,3-3_right: 6
-58553,58562,3-3_right,left,0.92,3-3_right: 10
-58564,58572,3-3_left,left,0.85,"3-3_right: 1, 3-3_left: 8"
-58970,59017,2-4_right,right,0.92,"1-5_right: 13, 1-2-3_right: 16, 2-4_right: 19"
-59062,59062,2-4_right,right,0.92,2-4_right: 1
-59154,59155,3-3_right,right,0.91,3-3_right: 2
-59157,59159,3-3_right,right,0.91,3-3_right: 3
-59161,59162,3-3_right,right,0.91,3-3_right: 2
-59164,59294,2-4_right,right,0.93,"3-3_right: 56, 2-4_right: 62, 1-2-3_right: 10, 1-5_right: 1, 3-3_left: 2"
-59295,59309,1-2-3_right,right,0.89,1-2-3_right: 15
-59312,59366,3-3_right,right,0.91,"1-2-3_left: 2, 3-3_left: 11, 3-3_right: 38, 2-4_left: 1, 2-4_right: 3"
-59377,59393,1-2-3_right,right,0.91,"3-3_right: 7, 1-2-3_right: 10"
-59394,59416,2-4_left,right,0.9,"2-4_left: 15, 3-3_left: 4, 3-3_right: 4"
-59417,59438,2-4_left,right,0.91,"2-4_left: 10, 3-3_left: 10, 1-2-3_left: 1, 3-3_right: 1"
-59493,59493,1-2-3_right,left,0.86,1-2-3_right: 1
-59499,59500,1-5_right,left,0.85,1-5_right: 2
-59983,59991,1-2-3_left,left,0.92,"0-6_left: 3, 1-2-3_left: 6"
-59994,59997,0-6_left,left,0.93,"1-2-3_left: 1, 0-6_left: 3"
-59999,59999,0-6_left,left,0.93,0-6_left: 1
-60046,60046,1-2-3_left,left,0.91,1-2-3_left: 1
-60051,60055,1-2-3_left,left,0.9,1-2-3_left: 5
-60057,60057,3-3_left,left,0.9,3-3_left: 1
-60060,60118,3-3_left,left,0.88,"3-3_left: 54, 1-2-3_left: 5"
-60119,60128,2-4_right,left,0.86,"3-3_right: 3, 2-4_left: 3, 2-4_right: 4"
-60338,60338,3-3_right,right,0.89,3-3_right: 1
-60341,60341,0-6_right,right,0.92,0-6_right: 1
-60344,60424,0-6_right,right,0.93,"0-6_right: 24, 2-4_right: 7, 1-5_right: 15, 1-2-3_right: 13, 3-3_right: 22"
-60425,60464,3-3_left,right,0.9,"1-2-3_right: 11, 3-3_right: 12, 3-3_left: 17"
-60474,60474,3-3_right,right,0.9,3-3_right: 1
-60479,60483,3-3_right,right,0.9,3-3_right: 5
-60540,60540,2-4_right,right,0.91,2-4_right: 1
-60546,60547,2-4_right,right,0.92,2-4_right: 2
-60549,60549,2-4_right,right,0.92,2-4_right: 1
-60552,60554,2-4_right,right,0.93,"3-3_right: 1, 2-4_right: 2"
-60559,60561,2-4_right,right,0.93,2-4_right: 3
-60575,60722,2-4_right,right,0.92,"2-4_right: 96, 1-5_right: 29, 0-6_right: 8, 3-3_right: 15"
-60724,60733,2-4_right,right,0.9,"2-4_right: 8, 3-3_right: 1, 0-6_right: 1"
-60735,60739,2-4_right,right,0.9,2-4_right: 5
-60741,60741,2-4_right,right,0.9,2-4_right: 1
-60745,60748,0-6_right,right,0.91,0-6_right: 4
-60750,60750,0-6_right,right,0.92,0-6_right: 1
-60752,60752,2-4_right,right,0.91,2-4_right: 1
-60755,60755,2-4_right,right,0.92,2-4_right: 1
-60757,60758,2-4_right,right,0.92,2-4_right: 2
-60760,60760,2-4_right,right,0.92,2-4_right: 1
-60762,60763,2-4_right,right,0.92,2-4_right: 2
-60816,60816,2-4_right,right,0.91,2-4_right: 1
-60819,60819,2-4_left,right,0.91,2-4_left: 1
-60821,60832,2-4_left,right,0.92,2-4_left: 12
-61163,61163,1-2-3_left,left,0.8,1-2-3_left: 1
-61205,61205,3-3_left,left,0.78,3-3_left: 1
-61214,61214,3-3_right,left,0.78,3-3_right: 1
-61353,61353,3-3_right,left,0.77,3-3_right: 1
-61703,61703,1-5_right,right,0.75,1-5_right: 1
-62163,62163,0-6_left,right,0.8,0-6_left: 1
-62171,62176,0-6_left,right,0.83,"3-3_left: 2, 0-6_left: 3, 1-2-3_left: 1"
-62190,62193,1-5_left,right,0.74,"3-3_left: 1, 1-5_left: 2, 1-5_right: 1"
-62237,62237,1-5_right,right,0.76,1-5_right: 1
-62245,62251,3-3_left,right,0.8,"2-4_right: 1, 3-3_left: 5, 2-4_left: 1"
-62272,62280,1-5_right,right,0.81,"1-2-3_right: 1, 1-5_right: 4, 3-3_right: 4"
-62282,62285,1-2-3_right,right,0.8,"1-2-3_right: 3, 3-3_right: 1"
-62287,62287,1-2-3_right,right,0.82,1-2-3_right: 1
-62297,62297,2-4_right,right,0.79,2-4_right: 1
-62299,62301,3-3_right,right,0.79,"3-3_right: 2, 2-4_right: 1"
-62304,62306,3-3_right,right,0.83,"2-4_right: 1, 3-3_right: 2"
-62588,62588,0-6_left,left,0.74,0-6_left: 1
-62607,62607,1-5_left,left,0.81,1-5_left: 1
-62630,62630,3-3_left,left,0.83,3-3_left: 1
-62757,62910,3-3_right,right,0.92,"1-2-3_right: 17, 3-3_right: 77, 3-3_left: 51, 2-4_left: 5, 1-2-3_left: 4"
-62911,62918,3-3_left,right,0.81,"1-2-3_left: 2, 0-6_left: 2, 3-3_left: 4"
-63084,63156,3-3_right,left,0.9,"3-3_right: 38, 3-3_left: 12, 1-2-3_left: 1, 2-4_right: 8, 1-2-3_right: 14"
-63758,63758,1-2-3_left,left,0.92,1-2-3_left: 1
-63761,63780,1-5_left,left,0.92,"1-2-3_left: 7, 1-5_left: 10, 0-6_left: 3"
-63890,63891,0-6_left,left,0.93,0-6_left: 2
-63893,63893,0-6_left,left,0.92,0-6_left: 1
-64024,64035,0-6_left,left,0.93,0-6_left: 12
-64037,64044,1-2-3_left,left,0.93,"1-2-3_left: 4, 0-6_left: 1, 3-3_left: 3"
-64047,64077,1-2-3_left,left,0.91,"3-3_left: 8, 1-2-3_left: 20, 1-5_left: 3"
-64078,64095,3-3_left,left,0.89,"3-3_left: 14, 3-3_right: 4"
-64096,64096,2-4_right,right,0.92,2-4_right: 1
-64097,64100,3-3_left,left,0.89,3-3_left: 4
-64101,64101,2-4_right,right,0.89,2-4_right: 1
-64119,64119,2-4_right,right,0.89,2-4_right: 1
-64123,64149,3-3_right,left,0.92,"3-3_right: 18, 3-3_left: 7, 2-4_left: 2"
-64150,64200,2-4_left,left,0.89,2-4_left: 51
-64519,64519,1-2-3_right,right,0.91,1-2-3_right: 1
-64523,64524,1-2-3_right,right,0.91,1-2-3_right: 2
-64526,64752,2-4_right,right,0.92,"1-2-3_right: 44, 3-3_right: 59, 0-6_right: 3, 2-4_right: 61, 3-3_left: 60"
-64759,64794,3-3_right,right,0.9,"3-3_left: 10, 3-3_right: 26"
-64925,64925,3-3_left,right,0.9,3-3_left: 1
-64929,64930,3-3_left,right,0.9,3-3_left: 2
-64936,65163,3-3_right,right,0.91,"3-3_right: 154, 3-3_left: 19, 1-2-3_right: 39, 1-5_right: 14, 2-4_right: 2"
-65164,65199,3-3_left,right,0.91,"3-3_left: 23, 1-2-3_right: 9, 2-4_left: 2, 3-3_right: 2"
-65200,65213,3-3_right,right,0.88,"1-2-3_left: 1, 1-2-3_right: 3, 1-5_right: 4, 3-3_right: 6"
-65463,65471,2-4_right,right,0.88,"1-5_right: 3, 1-2-3_right: 2, 2-4_right: 4"
-65473,65486,3-3_right,right,0.85,"3-3_right: 10, 1-5_right: 4"
-66008,66012,1-2-3_left,left,0.92,"1-5_left: 2, 1-2-3_left: 3"
-66013,66065,1-2-3_left,left,0.91,"1-2-3_left: 24, 3-3_left: 1, 2-4_left: 18, 1-2-3_right: 2, 3-3_right: 8"
-66094,66096,1-5_left,left,0.9,"1-5_left: 2, 3-3_left: 1"
-66098,66100,1-5_left,left,0.92,1-5_left: 3
-66103,66103,1-5_left,left,0.9,1-5_left: 1
-66127,66127,1-5_left,left,0.92,1-5_left: 1
-66130,66136,0-6_left,left,0.93,"0-6_left: 6, 2-4_left: 1"
-66139,66139,0-6_left,left,0.93,0-6_left: 1
-66140,66140,3-3_left,right,0.94,3-3_left: 1
-66141,66141,1-5_left,left,0.92,1-5_left: 1
-66143,66150,0-6_left,left,0.92,"0-6_left: 7, 2-4_left: 1"
-66151,66154,3-3_left,right,0.92,3-3_left: 4
-66155,66155,0-6_left,left,0.91,0-6_left: 1
-66156,66157,3-3_left,right,0.93,3-3_left: 2
-66158,66158,0-6_left,left,0.91,0-6_left: 1
-66159,66161,3-3_left,right,0.93,"2-4_left: 1, 3-3_left: 2"
-66162,66162,0-6_left,left,0.94,0-6_left: 1
-66164,66164,0-6_left,left,0.93,0-6_left: 1
-66166,66168,1-2-3_left,right,0.93,"3-3_left: 1, 1-2-3_left: 2"
-66172,66172,3-3_left,right,0.94,3-3_left: 1
-66174,66174,2-4_left,right,0.94,2-4_left: 1
-66176,66177,2-4_left,right,0.94,2-4_left: 2
-66179,66179,2-4_right,right,0.91,2-4_right: 1
-66185,66191,1-2-3_left,right,0.91,"1-2-3_left: 4, 2-4_right: 3"
-66873,66873,3-3_left,left,0.93,3-3_left: 1
-66875,66901,3-3_left,left,0.93,"3-3_left: 14, 1-2-3_left: 11, 2-4_left: 2"
-66902,66937,3-3_left,left,0.91,"1-2-3_left: 11, 3-3_left: 20, 3-3_right: 5"
-66938,66951,2-4_left,left,0.87,"3-3_right: 4, 3-3_left: 3, 1-2-3_right: 1, 2-4_left: 6"
-66952,66954,3-3_right,left,0.87,"3-3_right: 2, 3-3_left: 1"
-67747,67747,0-6_left,left,0.85,0-6_left: 1
-67749,67810,1-2-3_left,left,0.88,"0-6_left: 20, 2-4_left: 10, 1-2-3_left: 30, 1-5_left: 2"
-67853,67883,1-2-3_left,left,0.85,"1-5_left: 9, 1-2-3_left: 17, 3-3_left: 5"
-68154,68154,1-5_right,right,0.79,1-5_right: 1
-68170,68279,0-6_right,right,0.78,0-6_right: 110
-68348,68348,1-5_right,right,0.73,1-5_right: 1
-68350,68355,3-3_right,right,0.7,"1-5_right: 2, 3-3_right: 3"
-68412,68414,3-3_right,right,0.76,"3-3_right: 1, 3-3_left: 1, 2-4_left: 1"
-68415,68421,3-3_left,right,0.83,"1-5_left: 3, 3-3_left: 4"
-68426,68430,3-3_left,right,0.82,"3-3_left: 3, 1-5_left: 2"
-68431,68431,3-3_left,right,0.87,3-3_left: 1
-68432,68448,3-3_left,right,0.88,"3-3_left: 15, 0-6_right: 1, 1-2-3_right: 1"
-68455,68456,1-2-3_left,right,0.88,1-2-3_left: 2
-68460,68461,1-2-3_left,right,0.88,1-2-3_left: 2
-68472,68472,3-3_left,right,0.89,3-3_left: 1
-68478,68478,3-3_left,right,0.89,3-3_left: 1
-68496,68496,3-3_left,right,0.89,3-3_left: 1
-68512,68516,3-3_right,right,0.89,"2-4_right: 1, 3-3_right: 4"
-68518,68529,3-3_right,right,0.89,"3-3_right: 6, 2-4_right: 6"
-68531,68531,3-3_right,right,0.89,3-3_right: 1
-68677,68678,3-3_left,right,0.87,3-3_left: 2
-68683,68686,3-3_left,right,0.88,"3-3_left: 2, 1-5_right: 2"
-68688,68695,1-5_right,right,0.88,"3-3_left: 1, 1-5_right: 7"
-68697,68703,1-5_right,right,0.89,"3-3_right: 3, 1-5_right: 4"
-68796,68796,1-2-3_right,right,0.89,1-2-3_right: 1
-68800,68800,1-2-3_right,right,0.89,1-2-3_right: 1
-68802,68802,1-2-3_right,right,0.89,1-2-3_right: 1
-68804,68828,1-2-3_right,right,0.91,"1-2-3_right: 17, 3-3_right: 6, 2-4_right: 2"
-68829,68916,3-3_right,right,0.91,"1-2-3_right: 18, 3-3_right: 65, 3-3_left: 4, 2-4_right: 1"
-68978,68980,3-3_right,right,0.91,3-3_right: 3
-68983,69039,3-3_left,right,0.9,"3-3_right: 12, 3-3_left: 30, 2-4_left: 15"
-69042,69042,3-3_left,right,0.9,3-3_left: 1
-69046,69046,2-4_left,right,0.9,2-4_left: 1
-69119,69121,3-3_left,right,0.9,"2-4_left: 1, 3-3_left: 2"
-69124,69147,3-3_left,right,0.91,3-3_left: 24
-69149,69162,3-3_left,right,0.9,3-3_left: 14
-69164,69167,3-3_left,right,0.89,3-3_left: 4
-69181,69181,0-6_right,right,0.88,0-6_right: 1
-69183,69183,0-6_right,right,0.87,0-6_right: 1
-69190,69190,0-6_right,right,0.88,0-6_right: 1
-69192,69202,0-6_right,right,0.88,0-6_right: 11
-69205,69250,3-3_right,right,0.9,"0-6_right: 10, 3-3_right: 20, 3-3_left: 16"
-69254,69254,3-3_right,right,0.88,3-3_right: 1
-69257,69257,3-3_right,right,0.88,3-3_right: 1
-69259,69331,3-3_right,right,0.88,"3-3_right: 72, 3-3_left: 1"
-69403,69514,3-3_right,right,0.88,"1-5_right: 23, 1-2-3_right: 8, 3-3_right: 54, 3-3_left: 26, 2-4_right: 1"
-69515,69594,3-3_right,right,0.91,"1-2-3_right: 9, 3-3_left: 10, 3-3_right: 56, 2-4_right: 1, 1-2-3_left: 4"
+18930,19585,0-6 Formation,right,1.0,"0-6 Formation: 447, 1-5 Formation: 175, 2-4 Formation: 18, 3-3 Formation: 3"
+19700,19702,1-5 Formation,left,1.0,1-5 Formation: 3
+19705,19805,1-5 Formation,left,1.0,"1-5 Formation: 45, 2-4 Formation: 22, 0-6 Formation: 21"
+19806,19806,1-5 Formation,right,1.0,1-5 Formation: 1
+19807,20425,1-5 Formation,left,1.0,"0-6 Formation: 155, 1-5 Formation: 339, 2-4 Formation: 109, 3-3 Formation: 16"
+20482,20488,1-5 Formation,left,1.0,"1-5 Formation: 5, 0-6 Formation: 2"
+21299,21611,0-6 Formation,right,1.0,"0-6 Formation: 218, 1-5 Formation: 43, 2-4 Formation: 31, 3-3 Formation: 21"
+21790,21831,0-6 Formation,right,1.0,0-6 Formation: 2
+22119,22241,1-5 Formation,left,1.0,"0-6 Formation: 40, 1-5 Formation: 78, 2-4 Formation: 5"
+22242,22242,2-4 Formation,right,1.0,2-4 Formation: 1
+22243,22294,1-5 Formation,left,1.0,"1-5 Formation: 51, 0-6 Formation: 1"
+22295,22295,0-6 Formation,right,1.0,0-6 Formation: 1
+22296,22346,1-5 Formation,left,1.0,"1-5 Formation: 50, 2-4 Formation: 1"
+22794,22852,0-6 Formation,right,1.0,"2-4 Formation: 12, 0-6 Formation: 37, 1-5 Formation: 5, 3-3 Formation: 3"
+22916,23185,0-6 Formation,right,1.0,"0-6 Formation: 214, 1-5 Formation: 12, 2-4 Formation: 18, 3-3 Formation: 3, Unknown Formation: 13"
+23354,23358,0-6 Formation,right,1.0,"1-5 Formation: 2, 0-6 Formation: 3"
+23361,23375,0-6 Formation,right,1.0,"0-6 Formation: 8, 1-5 Formation: 1"
+23543,23561,0-6 Formation,right,1.0,0-6 Formation: 6
+23562,23562,0-6 Formation,left,1.0,0-6 Formation: 1
+23563,23563,0-6 Formation,right,1.0,0-6 Formation: 1
+23564,23565,1-5 Formation,left,1.0,"1-5 Formation: 1, 0-6 Formation: 1"
+23566,23567,0-6 Formation,right,1.0,0-6 Formation: 2
+23568,23568,1-5 Formation,left,1.0,1-5 Formation: 1
+23569,23574,0-6 Formation,right,1.0,0-6 Formation: 6
+23575,23575,1-5 Formation,left,1.0,1-5 Formation: 1
+23576,23576,0-6 Formation,right,1.0,0-6 Formation: 1
+23577,23579,1-5 Formation,left,1.0,1-5 Formation: 3
+23580,23582,0-6 Formation,right,1.0,0-6 Formation: 3
+23583,23583,1-5 Formation,left,1.0,1-5 Formation: 1
+23584,23585,0-6 Formation,right,1.0,0-6 Formation: 2
+23586,23590,1-5 Formation,left,1.0,1-5 Formation: 5
+23591,23591,0-6 Formation,right,1.0,0-6 Formation: 1
+23592,23595,1-5 Formation,left,1.0,1-5 Formation: 4
+23596,23597,0-6 Formation,right,1.0,0-6 Formation: 2
+23598,23600,1-5 Formation,left,1.0,1-5 Formation: 3
+23601,23601,0-6 Formation,right,1.0,0-6 Formation: 1
+23602,23602,1-5 Formation,left,1.0,1-5 Formation: 1
+23603,23604,0-6 Formation,right,1.0,0-6 Formation: 2
+23605,23606,1-5 Formation,left,1.0,1-5 Formation: 1
+23607,23607,0-6 Formation,right,1.0,0-6 Formation: 1
+23610,23612,1-5 Formation,left,1.0,1-5 Formation: 2
+23613,23613,0-6 Formation,right,1.0,0-6 Formation: 1
+23614,23618,1-5 Formation,left,1.0,1-5 Formation: 5
+23619,23619,0-6 Formation,right,1.0,0-6 Formation: 1
+23620,23620,1-5 Formation,left,1.0,1-5 Formation: 1
+23623,23668,1-5 Formation,left,1.0,"1-5 Formation: 33, 0-6 Formation: 13"
+23669,23669,0-6 Formation,right,1.0,0-6 Formation: 1
+23670,23676,1-5 Formation,left,1.0,1-5 Formation: 7
+23677,23677,0-6 Formation,right,1.0,0-6 Formation: 1
+23678,23686,1-5 Formation,left,1.0,1-5 Formation: 9
+23687,23687,1-5 Formation,right,1.0,1-5 Formation: 1
+23688,23688,1-5 Formation,left,1.0,1-5 Formation: 1
+23689,23689,1-5 Formation,right,1.0,1-5 Formation: 1
+23690,23692,1-5 Formation,left,1.0,1-5 Formation: 3
+23693,23693,0-6 Formation,right,1.0,0-6 Formation: 1
+23694,23697,1-5 Formation,left,1.0,1-5 Formation: 4
+23698,23698,0-6 Formation,right,1.0,0-6 Formation: 1
+23699,23715,1-5 Formation,left,1.0,1-5 Formation: 17
+23720,23721,1-5 Formation,left,1.0,1-5 Formation: 2
+23726,23726,1-5 Formation,left,1.0,1-5 Formation: 1
+23733,23733,0-6 Formation,left,1.0,0-6 Formation: 1
+23738,23741,0-6 Formation,left,1.0,0-6 Formation: 4
+23744,23745,0-6 Formation,left,1.0,0-6 Formation: 2
+23751,23751,1-5 Formation,left,1.0,1-5 Formation: 1
+23767,23772,1-5 Formation,left,1.0,1-5 Formation: 6
+23773,23776,0-6 Formation,right,1.0,0-6 Formation: 4
+23777,23777,1-5 Formation,left,1.0,1-5 Formation: 1
+23785,23791,0-6 Formation,left,1.0,0-6 Formation: 7
+23794,23796,0-6 Formation,left,1.0,0-6 Formation: 3
+23800,23801,0-6 Formation,left,1.0,0-6 Formation: 2
+23804,23804,1-5 Formation,left,1.0,1-5 Formation: 1
+23807,23850,2-4 Formation,left,1.0,"1-5 Formation: 5, 2-4 Formation: 39"
+24084,24084,0-6 Formation,right,1.0,0-6 Formation: 1
+24085,24100,2-4 Formation,left,1.0,"3-3 Formation: 6, 2-4 Formation: 10"
+24146,24285,1-5 Formation,left,1.0,"1-5 Formation: 97, 0-6 Formation: 10, 2-4 Formation: 9"
+24286,24286,0-6 Formation,right,1.0,0-6 Formation: 1
+24287,24340,1-5 Formation,left,1.0,1-5 Formation: 54
+24341,24341,0-6 Formation,right,1.0,0-6 Formation: 1
+24342,24342,1-5 Formation,left,1.0,1-5 Formation: 1
+24343,24343,0-6 Formation,right,1.0,0-6 Formation: 1
+24344,24366,1-5 Formation,left,1.0,1-5 Formation: 23
+24384,24384,0-6 Formation,right,1.0,0-6 Formation: 1
+24385,24566,1-5 Formation,left,1.0,"1-5 Formation: 144, 0-6 Formation: 7, 2-4 Formation: 29, 3-3 Formation: 2"
+24657,24917,1-5 Formation,left,1.0,"2-4 Formation: 109, 3-3 Formation: 28, 1-5 Formation: 118, 0-6 Formation: 1"
+24920,24926,0-6 Formation,left,1.0,"1-5 Formation: 1, 0-6 Formation: 6"
+24931,24932,0-6 Formation,left,1.0,0-6 Formation: 2
+24949,25848,0-6 Formation,right,1.0,"0-6 Formation: 594, 1-5 Formation: 150, 2-4 Formation: 56, 3-3 Formation: 62, Unknown Formation: 10"
+25910,25941,0-6 Formation,right,1.0,0-6 Formation: 10
+26089,26090,0-6 Formation,left,1.0,0-6 Formation: 2
+26120,26134,0-6 Formation,right,1.0,0-6 Formation: 9
+26276,26441,1-5 Formation,left,1.0,"1-5 Formation: 143, 2-4 Formation: 21"
+26744,26978,1-5 Formation,right,1.0,"0-6 Formation: 73, 1-5 Formation: 88, 2-4 Formation: 55, 3-3 Formation: 16, Unknown Formation: 3"
+26987,27098,2-4 Formation,left,1.0,"2-4 Formation: 44, 3-3 Formation: 3, 1-5 Formation: 14, 0-6 Formation: 16"
+27448,27482,2-4 Formation,right,1.0,"0-6 Formation: 4, 2-4 Formation: 5"
+27485,27496,2-4 Formation,right,1.0,2-4 Formation: 12
+27499,27500,2-4 Formation,right,1.0,2-4 Formation: 2
+27503,27521,0-6 Formation,right,1.0,"2-4 Formation: 3, 1-5 Formation: 1, 0-6 Formation: 9"
+27524,27524,0-6 Formation,right,1.0,0-6 Formation: 1
+27527,27530,0-6 Formation,right,1.0,0-6 Formation: 2
+27759,27761,1-5 Formation,left,1.0,1-5 Formation: 3
+27764,27769,1-5 Formation,left,1.0,1-5 Formation: 6
+27772,28039,1-5 Formation,left,1.0,"1-5 Formation: 176, 2-4 Formation: 30, 3-3 Formation: 41, Unknown Formation: 9, 0-6 Formation: 10"
+28382,28385,0-6 Formation,left,1.0,0-6 Formation: 4
+28390,28391,0-6 Formation,left,1.0,0-6 Formation: 2
+28394,28397,0-6 Formation,left,1.0,0-6 Formation: 4
+28400,28400,0-6 Formation,left,1.0,0-6 Formation: 1
+28403,28414,0-6 Formation,left,1.0,0-6 Formation: 12
+28417,28417,0-6 Formation,left,1.0,0-6 Formation: 1
+28420,28441,0-6 Formation,left,1.0,0-6 Formation: 18
+28444,28524,0-6 Formation,left,1.0,0-6 Formation: 81
+28586,28590,0-6 Formation,left,1.0,0-6 Formation: 5
+28594,28625,0-6 Formation,left,1.0,0-6 Formation: 31
+28644,28647,0-6 Formation,left,1.0,0-6 Formation: 4
+28651,28667,0-6 Formation,left,1.0,0-6 Formation: 14
+28670,28672,0-6 Formation,left,1.0,0-6 Formation: 3
+28675,28675,0-6 Formation,left,1.0,0-6 Formation: 1
+28679,28692,0-6 Formation,left,1.0,0-6 Formation: 14
+29076,29677,0-6 Formation,right,1.0,"0-6 Formation: 265, 1-5 Formation: 205, 2-4 Formation: 81, 3-3 Formation: 35, Unknown Formation: 4"
+30019,30055,1-5 Formation,left,1.0,1-5 Formation: 37
+30058,30093,1-5 Formation,left,1.0,"1-5 Formation: 35, 0-6 Formation: 1"
+30168,30169,1-5 Formation,left,1.0,1-5 Formation: 2
+30173,30173,1-5 Formation,left,1.0,1-5 Formation: 1
+30176,30183,1-5 Formation,left,1.0,1-5 Formation: 8
+30187,30190,1-5 Formation,left,1.0,1-5 Formation: 4
+30193,30195,1-5 Formation,left,1.0,"1-5 Formation: 2, 0-6 Formation: 1"
+30198,30204,0-6 Formation,left,1.0,0-6 Formation: 7
+30207,30217,1-5 Formation,left,1.0,"1-5 Formation: 8, 0-6 Formation: 3"
+30220,30227,1-5 Formation,left,1.0,1-5 Formation: 8
+30230,30234,1-5 Formation,left,1.0,1-5 Formation: 5
+30237,30522,1-5 Formation,left,1.0,"1-5 Formation: 226, 2-4 Formation: 45, 0-6 Formation: 1, 3-3 Formation: 6"
+30559,30559,0-6 Formation,right,1.0,0-6 Formation: 1
+30676,31287,0-6 Formation,right,1.0,"1-5 Formation: 106, 0-6 Formation: 421, 2-4 Formation: 6, 3-3 Formation: 17, Unknown Formation: 13"
+31377,31430,1-5 Formation,right,1.0,"2-4 Formation: 22, 1-5 Formation: 30"
+31458,31678,0-6 Formation,right,1.0,"0-6 Formation: 161, 1-5 Formation: 20, 2-4 Formation: 21, 3-3 Formation: 8, Unknown Formation: 11"
+31863,31878,0-6 Formation,right,1.0,"0-6 Formation: 8, 1-5 Formation: 3"
+32127,32619,2-4 Formation,left,1.0,"2-4 Formation: 304, 1-5 Formation: 100, 3-3 Formation: 50, Unknown Formation: 28"
+33105,33105,1-5 Formation,left,1.0,1-5 Formation: 1
+33126,33126,0-6 Formation,left,1.0,0-6 Formation: 1
+33127,33128,0-6 Formation,right,1.0,0-6 Formation: 1
+33129,33130,0-6 Formation,left,1.0,0-6 Formation: 2
+33142,33142,3-3 Formation,left,1.0,3-3 Formation: 1
+33835,33925,0-6 Formation,left,1.0,"1-5 Formation: 41, 0-6 Formation: 50"
+33926,33926,0-6 Formation,right,1.0,0-6 Formation: 1
+33927,33927,0-6 Formation,left,1.0,0-6 Formation: 1
+33928,33932,0-6 Formation,right,1.0,0-6 Formation: 5
+33933,33933,0-6 Formation,left,1.0,0-6 Formation: 1
+33934,33935,0-6 Formation,right,1.0,0-6 Formation: 2
+33936,33936,0-6 Formation,left,1.0,0-6 Formation: 1
+33937,33938,0-6 Formation,right,1.0,"0-6 Formation: 1, 1-5 Formation: 1"
+33939,33939,0-6 Formation,left,1.0,0-6 Formation: 1
+33940,33940,1-5 Formation,right,1.0,1-5 Formation: 1
+33941,33941,0-6 Formation,left,1.0,0-6 Formation: 1
+33942,33942,1-5 Formation,right,1.0,1-5 Formation: 1
+33943,33948,1-5 Formation,left,1.0,"1-5 Formation: 4, 0-6 Formation: 2"
+33949,33953,1-5 Formation,right,1.0,1-5 Formation: 5
+33954,33957,2-4 Formation,left,1.0,2-4 Formation: 4
+33958,33958,1-5 Formation,right,1.0,1-5 Formation: 1
+33959,33959,2-4 Formation,left,1.0,2-4 Formation: 1
+33960,33962,1-5 Formation,right,1.0,1-5 Formation: 3
+33963,33963,2-4 Formation,left,1.0,2-4 Formation: 1
+33964,33964,1-5 Formation,right,1.0,1-5 Formation: 1
+33965,33966,1-5 Formation,left,1.0,1-5 Formation: 1
+33967,33967,1-5 Formation,right,1.0,1-5 Formation: 1
+33970,33970,0-6 Formation,right,1.0,0-6 Formation: 1
+33974,33974,1-5 Formation,right,1.0,1-5 Formation: 1
+33978,33982,1-5 Formation,right,1.0,1-5 Formation: 5
+33987,33989,1-5 Formation,right,1.0,1-5 Formation: 3
+33992,34051,1-5 Formation,right,1.0,"1-5 Formation: 27, 0-6 Formation: 20"
+34181,34206,1-5 Formation,right,1.0,"1-5 Formation: 13, 0-6 Formation: 9"
+34209,34227,1-5 Formation,right,1.0,"1-5 Formation: 12, 2-4 Formation: 7"
+34402,34473,0-6 Formation,right,1.0,"0-6 Formation: 35, 1-5 Formation: 7"
+34476,34501,0-6 Formation,right,1.0,"0-6 Formation: 25, 1-5 Formation: 1"
+34504,34531,1-5 Formation,right,1.0,"0-6 Formation: 9, 1-5 Formation: 19"
+34534,34623,1-5 Formation,right,1.0,"0-6 Formation: 26, 1-5 Formation: 64"
+34626,34628,1-5 Formation,right,1.0,"2-4 Formation: 1, 1-5 Formation: 2"
+34631,34693,1-5 Formation,right,1.0,"1-5 Formation: 60, 0-6 Formation: 3"
+34698,34702,1-5 Formation,right,1.0,"1-5 Formation: 4, 0-6 Formation: 1"
+34706,34738,2-4 Formation,right,1.0,"1-5 Formation: 2, 3-3 Formation: 6, 2-4 Formation: 25"
+34741,34742,2-4 Formation,right,1.0,2-4 Formation: 2
+34745,34745,1-5 Formation,right,1.0,1-5 Formation: 1
+34748,34778,2-4 Formation,right,1.0,"1-5 Formation: 8, 2-4 Formation: 22, 3-3 Formation: 1"
+34781,34787,2-4 Formation,right,1.0,"2-4 Formation: 6, 3-3 Formation: 1"
+34790,34801,2-4 Formation,right,1.0,"3-3 Formation: 1, 2-4 Formation: 9, 1-5 Formation: 2"
+34805,34818,1-5 Formation,right,1.0,1-5 Formation: 10
+34821,34823,0-6 Formation,right,1.0,0-6 Formation: 3
+34826,34831,0-6 Formation,right,1.0,"0-6 Formation: 3, 1-5 Formation: 1"
+34839,34846,0-6 Formation,right,1.0,"0-6 Formation: 4, 1-5 Formation: 4"
+34849,34852,0-6 Formation,right,1.0,"0-6 Formation: 3, 1-5 Formation: 1"
+34857,34866,1-5 Formation,right,1.0,"1-5 Formation: 5, 0-6 Formation: 4, 2-4 Formation: 1"
+34870,34886,1-5 Formation,right,1.0,"1-5 Formation: 14, 0-6 Formation: 2, 2-4 Formation: 1"
+34889,34889,2-4 Formation,right,1.0,2-4 Formation: 1
+34893,34900,1-5 Formation,right,1.0,"1-5 Formation: 4, 2-4 Formation: 4"
+34903,34909,2-4 Formation,right,1.0,"1-5 Formation: 3, 2-4 Formation: 4"
+34912,34916,2-4 Formation,right,1.0,"2-4 Formation: 4, 1-5 Formation: 1"
+34919,34934,0-6 Formation,right,1.0,"2-4 Formation: 2, 0-6 Formation: 9, 1-5 Formation: 5"
+35044,35066,0-6 Formation,right,1.0,"0-6 Formation: 9, 1-5 Formation: 2, 2-4 Formation: 1"
+35069,35069,0-6 Formation,right,1.0,0-6 Formation: 1
+35072,35174,0-6 Formation,right,1.0,"0-6 Formation: 77, 1-5 Formation: 25, 2-4 Formation: 1"
+35179,35241,0-6 Formation,right,1.0,"1-5 Formation: 15, 0-6 Formation: 48"
+35244,35298,0-6 Formation,right,1.0,"0-6 Formation: 35, 1-5 Formation: 20"
+35301,35364,0-6 Formation,right,1.0,"0-6 Formation: 39, 1-5 Formation: 24"
+35368,35377,1-5 Formation,right,1.0,"1-5 Formation: 8, 2-4 Formation: 2"
+35380,35383,2-4 Formation,right,1.0,"1-5 Formation: 1, 2-4 Formation: 3"
+35386,35392,1-5 Formation,right,1.0,1-5 Formation: 7
+35395,35396,0-6 Formation,right,1.0,"0-6 Formation: 1, 1-5 Formation: 1"
+35400,35416,1-5 Formation,right,1.0,"1-5 Formation: 5, 0-6 Formation: 1"
+35421,35421,0-6 Formation,right,1.0,0-6 Formation: 1
+35495,35495,1-5 Formation,left,1.0,1-5 Formation: 1
+35527,35527,2-4 Formation,left,1.0,2-4 Formation: 1
+35645,35645,0-6 Formation,left,1.0,0-6 Formation: 1
+35866,35866,0-6 Formation,left,1.0,0-6 Formation: 1
+35869,36354,1-5 Formation,left,1.0,"0-6 Formation: 63, 1-5 Formation: 315, 2-4 Formation: 57, 3-3 Formation: 37, Unknown Formation: 4"
+36355,36355,2-4 Formation,right,1.0,2-4 Formation: 1
+36356,36359,1-5 Formation,left,1.0,1-5 Formation: 4
+36360,36363,3-3 Formation,right,1.0,"2-4 Formation: 1, 3-3 Formation: 3"
+36364,36364,2-4 Formation,left,1.0,2-4 Formation: 1
+36365,36366,2-4 Formation,right,1.0,2-4 Formation: 1
+36375,36377,0-6 Formation,right,1.0,0-6 Formation: 2
+36380,36894,1-5 Formation,right,1.0,"0-6 Formation: 183, 1-5 Formation: 267, 2-4 Formation: 20"
+37029,37184,1-5 Formation,right,1.0,"0-6 Formation: 14, 1-5 Formation: 51, 2-4 Formation: 14, 3-3 Formation: 17, Unknown Formation: 25"
+37488,37517,0-6 Formation,right,1.0,0-6 Formation: 4
+37652,37657,1-5 Formation,right,1.0,"1-5 Formation: 5, 0-6 Formation: 1"
+37674,37699,1-5 Formation,right,1.0,"0-6 Formation: 4, 1-5 Formation: 14, 2-4 Formation: 2, 3-3 Formation: 1"
+37759,37951,1-5 Formation,left,1.0,"1-5 Formation: 61, 2-4 Formation: 59, 3-3 Formation: 22, Unknown Formation: 1"
+37952,37952,1-5 Formation,right,1.0,1-5 Formation: 1
+37953,37959,0-6 Formation,left,1.0,"1-5 Formation: 1, 0-6 Formation: 6"
+37960,37960,0-6 Formation,right,1.0,0-6 Formation: 1
+37961,37963,0-6 Formation,left,1.0,0-6 Formation: 3
+37964,37964,1-5 Formation,right,1.0,1-5 Formation: 1
+37965,38203,0-6 Formation,left,1.0,"0-6 Formation: 83, 1-5 Formation: 48, 2-4 Formation: 52, 3-3 Formation: 29, Unknown Formation: 4"
+38751,38994,1-5 Formation,right,1.0,"1-5 Formation: 194, 2-4 Formation: 14, 0-6 Formation: 2, 3-3 Formation: 5, Unknown Formation: 18"
+39525,39787,1-5 Formation,left,1.0,"1-5 Formation: 123, 2-4 Formation: 5, 3-3 Formation: 21, 0-6 Formation: 71"
+40124,40125,0-6 Formation,right,1.0,0-6 Formation: 1
+40134,40137,0-6 Formation,right,1.0,0-6 Formation: 4
+40142,40142,0-6 Formation,right,1.0,0-6 Formation: 1
+40145,40146,0-6 Formation,right,1.0,0-6 Formation: 2
+40152,40153,0-6 Formation,right,1.0,0-6 Formation: 2
+40159,40169,0-6 Formation,left,1.0,0-6 Formation: 11
+40173,40175,0-6 Formation,left,1.0,0-6 Formation: 3
+40179,40189,0-6 Formation,left,1.0,0-6 Formation: 11
+40192,40667,1-5 Formation,left,1.0,"0-6 Formation: 155, 1-5 Formation: 198, 2-4 Formation: 39, 3-3 Formation: 24, Unknown Formation: 7"
+40668,40668,2-4 Formation,right,1.0,2-4 Formation: 1
+40669,40670,2-4 Formation,left,1.0,"2-4 Formation: 1, 3-3 Formation: 1"
+40671,40671,1-5 Formation,right,1.0,1-5 Formation: 1
+40672,40672,1-5 Formation,left,1.0,1-5 Formation: 1
+40675,40679,1-5 Formation,right,1.0,"2-4 Formation: 1, 1-5 Formation: 4"
+41202,41203,0-6 Formation,left,1.0,0-6 Formation: 1
+41206,41580,0-6 Formation,left,1.0,"0-6 Formation: 133, 1-5 Formation: 113, 2-4 Formation: 48, 3-3 Formation: 26, Unknown Formation: 24"
+41581,41584,2-4 Formation,right,1.0,2-4 Formation: 2
+41949,41970,0-6 Formation,right,1.0,0-6 Formation: 16
+41978,41985,0-6 Formation,right,1.0,0-6 Formation: 1
+42281,42469,0-6 Formation,left,1.0,"3-3 Formation: 21, 1-5 Formation: 28, 0-6 Formation: 68, Unknown Formation: 2"
+42575,43048,0-6 Formation,right,1.0,"2-4 Formation: 7, 1-5 Formation: 102, 0-6 Formation: 298, 3-3 Formation: 9, Unknown Formation: 41"
+43081,43081,0-6 Formation,right,1.0,0-6 Formation: 1
+43084,43085,1-5 Formation,right,1.0,1-5 Formation: 2
+43377,43379,0-6 Formation,right,1.0,0-6 Formation: 3
+43382,43405,0-6 Formation,right,1.0,0-6 Formation: 6
+43527,43912,1-5 Formation,left,1.0,"1-5 Formation: 129, 0-6 Formation: 87, 2-4 Formation: 70, 3-3 Formation: 55, Unknown Formation: 19"
+44185,44258,0-6 Formation,right,1.0,"2-4 Formation: 17, 3-3 Formation: 17, 1-5 Formation: 15, 0-6 Formation: 22"
+44261,44263,1-5 Formation,right,1.0,1-5 Formation: 3
+44266,44611,1-5 Formation,right,1.0,"1-5 Formation: 163, 2-4 Formation: 88, 0-6 Formation: 43, Unknown Formation: 3, 3-3 Formation: 8"
+44982,44994,0-6 Formation,right,1.0,0-6 Formation: 12
+44998,44998,0-6 Formation,right,1.0,0-6 Formation: 1
+45004,45048,0-6 Formation,right,1.0,0-6 Formation: 45
+45049,45049,0-6 Formation,left,1.0,0-6 Formation: 1
+45050,45093,1-5 Formation,right,1.0,"0-6 Formation: 14, 1-5 Formation: 30"
+45094,45094,0-6 Formation,left,1.0,0-6 Formation: 1
+45095,45102,0-6 Formation,right,1.0,"1-5 Formation: 1, 0-6 Formation: 7"
+45103,45103,0-6 Formation,left,1.0,0-6 Formation: 1
+45104,45105,0-6 Formation,right,1.0,0-6 Formation: 2
+45106,45106,0-6 Formation,left,1.0,0-6 Formation: 1
+45107,45112,0-6 Formation,right,1.0,"0-6 Formation: 3, 1-5 Formation: 3"
+45113,45113,0-6 Formation,left,1.0,0-6 Formation: 1
+45114,45116,1-5 Formation,right,1.0,1-5 Formation: 3
+45117,45119,1-5 Formation,left,1.0,1-5 Formation: 3
+45120,45120,1-5 Formation,right,1.0,1-5 Formation: 1
+45121,45122,1-5 Formation,left,1.0,1-5 Formation: 2
+45123,45123,1-5 Formation,right,1.0,1-5 Formation: 1
+45124,45128,1-5 Formation,left,1.0,1-5 Formation: 5
+45129,45129,1-5 Formation,right,1.0,1-5 Formation: 1
+45130,45357,1-5 Formation,left,1.0,"1-5 Formation: 115, 0-6 Formation: 29, 2-4 Formation: 16, 3-3 Formation: 27"
+45360,45365,1-5 Formation,left,1.0,"2-4 Formation: 2, 1-5 Formation: 4"
+45734,46258,0-6 Formation,right,1.0,"1-5 Formation: 159, 0-6 Formation: 259, 2-4 Formation: 70, 3-3 Formation: 16"
+46513,46513,2-4 Formation,left,1.0,2-4 Formation: 1
+46562,47122,0-6 Formation,right,1.0,"0-6 Formation: 348, 1-5 Formation: 88, 2-4 Formation: 10, 3-3 Formation: 21, Unknown Formation: 38"
+47275,47287,0-6 Formation,right,1.0,"0-6 Formation: 8, 1-5 Formation: 1"
+47430,47432,0-6 Formation,left,1.0,0-6 Formation: 3
+47435,47435,0-6 Formation,left,1.0,0-6 Formation: 1
+47439,47440,0-6 Formation,left,1.0,0-6 Formation: 2
+47443,47443,0-6 Formation,left,1.0,0-6 Formation: 1
+47446,47447,0-6 Formation,left,1.0,0-6 Formation: 2
+47450,47461,0-6 Formation,left,1.0,0-6 Formation: 12
+47464,47477,0-6 Formation,left,1.0,0-6 Formation: 14
+47480,47480,0-6 Formation,left,1.0,0-6 Formation: 1
+47486,47486,0-6 Formation,left,1.0,0-6 Formation: 1
+47489,47492,0-6 Formation,left,1.0,0-6 Formation: 4
+47495,47496,0-6 Formation,left,1.0,0-6 Formation: 2
+47499,47564,0-6 Formation,left,1.0,0-6 Formation: 53
+47697,47806,Unknown Formation,left,1.0,"1-5 Formation: 21, 2-4 Formation: 19, 3-3 Formation: 25, Unknown Formation: 45"
+47812,47845,0-6 Formation,left,1.0,"1-5 Formation: 8, 0-6 Formation: 26"
+47848,47869,2-4 Formation,left,1.0,"1-5 Formation: 2, 2-4 Formation: 20"
+47873,47875,2-4 Formation,left,1.0,2-4 Formation: 3
+47880,47883,2-4 Formation,left,1.0,2-4 Formation: 4
+47887,47901,2-4 Formation,left,1.0,"2-4 Formation: 8, 1-5 Formation: 7"
+47904,48012,1-5 Formation,left,1.0,"1-5 Formation: 91, 2-4 Formation: 9, 0-6 Formation: 9"
+48309,48397,1-5 Formation,left,1.0,"1-5 Formation: 34, 2-4 Formation: 33, 3-3 Formation: 22"
+48401,48403,1-5 Formation,left,1.0,1-5 Formation: 2
+48404,48404,2-4 Formation,right,1.0,2-4 Formation: 1
+48446,48554,0-6 Formation,right,1.0,0-6 Formation: 13
+48746,48809,1-5 Formation,right,1.0,"1-5 Formation: 18, 2-4 Formation: 8"
+48894,49253,1-5 Formation,left,1.0,"0-6 Formation: 87, 1-5 Formation: 188, 2-4 Formation: 85"
+49257,49400,2-4 Formation,left,1.0,"0-6 Formation: 12, 1-5 Formation: 28, 2-4 Formation: 37, 3-3 Formation: 27, Unknown Formation: 17"
+49680,49707,1-5 Formation,right,1.0,"1-5 Formation: 16, 2-4 Formation: 2, 0-6 Formation: 3"
+49957,50405,1-5 Formation,left,1.0,"0-6 Formation: 101, 1-5 Formation: 269, 2-4 Formation: 50, 3-3 Formation: 14, Unknown Formation: 14"
+50571,50766,2-4 Formation,left,1.0,"2-4 Formation: 84, 3-3 Formation: 71, Unknown Formation: 6, 1-5 Formation: 32, 0-6 Formation: 1"
+51005,51008,1-5 Formation,left,1.0,1-5 Formation: 1
+51012,51067,2-4 Formation,left,1.0,"2-4 Formation: 34, 1-5 Formation: 22"
+51070,51128,Unknown Formation,left,1.0,"3-3 Formation: 11, 2-4 Formation: 12, 1-5 Formation: 2, Unknown Formation: 34"
+51417,51914,1-5 Formation,right,1.0,"0-6 Formation: 127, 1-5 Formation: 322, 2-4 Formation: 26, Unknown Formation: 6, 3-3 Formation: 6"
+52051,52162,Unknown Formation,left,1.0,"0-6 Formation: 5, 1-5 Formation: 25, 2-4 Formation: 13, 3-3 Formation: 15, Unknown Formation: 29"
+52517,52963,1-5 Formation,left,1.0,"0-6 Formation: 1, 1-5 Formation: 278, 2-4 Formation: 115, 3-3 Formation: 10, Unknown Formation: 42"
+53322,53493,1-5 Formation,right,1.0,"0-6 Formation: 7, 1-5 Formation: 136"
+53544,53544,1-5 Formation,right,1.0,1-5 Formation: 1
+53547,53554,1-5 Formation,right,1.0,1-5 Formation: 8
+53557,53634,1-5 Formation,right,1.0,1-5 Formation: 78
+54175,54188,0-6 Formation,left,1.0,0-6 Formation: 4
+54191,54546,0-6 Formation,left,1.0,"0-6 Formation: 252, 1-5 Formation: 33, 2-4 Formation: 45, 3-3 Formation: 7, Unknown Formation: 2"
+54925,55558,1-5 Formation,right,1.0,"0-6 Formation: 107, 1-5 Formation: 398, 2-4 Formation: 19"
+55638,55844,2-4 Formation,right,1.0,"1-5 Formation: 77, 2-4 Formation: 130"
+55980,56003,Unknown Formation,right,1.0,"2-4 Formation: 3, 3-3 Formation: 2, Unknown Formation: 7"
+56006,56053,3-3 Formation,right,1.0,"3-3 Formation: 26, 2-4 Formation: 21, 1-5 Formation: 1"
+56056,56086,2-4 Formation,right,1.0,"2-4 Formation: 14, 1-5 Formation: 1"
+56118,56209,1-5 Formation,right,1.0,"1-5 Formation: 60, 0-6 Formation: 15"
+56342,56342,1-5 Formation,right,1.0,1-5 Formation: 1
+56349,56349,0-6 Formation,right,1.0,0-6 Formation: 1
+56353,56354,1-5 Formation,right,1.0,"1-5 Formation: 1, 0-6 Formation: 1"
+56358,56358,0-6 Formation,right,1.0,0-6 Formation: 1
+57464,57467,1-5 Formation,right,1.0,"0-6 Formation: 1, 1-5 Formation: 2"
+57471,57596,1-5 Formation,right,1.0,"1-5 Formation: 88, 0-6 Formation: 2, 2-4 Formation: 36"
+57775,57909,1-5 Formation,right,1.0,"1-5 Formation: 86, 0-6 Formation: 36"
+58183,58193,0-6 Formation,right,1.0,0-6 Formation: 8
+58393,58586,0-6 Formation,left,1.0,"0-6 Formation: 100, 1-5 Formation: 18, 2-4 Formation: 18, 3-3 Formation: 19"
+58587,58587,1-5 Formation,right,1.0,1-5 Formation: 1
+58590,58593,0-6 Formation,left,1.0,0-6 Formation: 1
+58594,58594,1-5 Formation,right,1.0,1-5 Formation: 1
+58595,58597,0-6 Formation,left,1.0,0-6 Formation: 3
+58598,58598,1-5 Formation,right,1.0,1-5 Formation: 1
+58599,58599,0-6 Formation,left,1.0,0-6 Formation: 1
+58970,59440,1-5 Formation,right,1.0,"0-6 Formation: 170, 1-5 Formation: 204, 2-4 Formation: 2"
+59495,59500,1-5 Formation,left,1.0,1-5 Formation: 6
+59503,59678,0-6 Formation,left,1.0,"1-5 Formation: 22, 0-6 Formation: 130"
+59983,60164,2-4 Formation,left,1.0,"0-6 Formation: 15, 1-5 Formation: 57, 2-4 Formation: 59"
+60297,60832,1-5 Formation,right,1.0,"0-6 Formation: 197, 1-5 Formation: 332"
+61060,61060,1-5 Formation,left,1.0,1-5 Formation: 1
+61117,61117,0-6 Formation,left,1.0,0-6 Formation: 1
+61163,61163,0-6 Formation,left,1.0,0-6 Formation: 1
+61214,61214,0-6 Formation,left,1.0,0-6 Formation: 1
+61270,61270,0-6 Formation,left,1.0,0-6 Formation: 1
+61353,61353,1-5 Formation,left,1.0,1-5 Formation: 1
+61554,61559,0-6 Formation,left,1.0,0-6 Formation: 6
+61668,61686,0-6 Formation,right,1.0,"0-6 Formation: 7, 1-5 Formation: 1"
+61691,61758,0-6 Formation,right,1.0,0-6 Formation: 13
+61788,62168,0-6 Formation,right,1.0,"0-6 Formation: 215, 1-5 Formation: 3"
+62171,62174,1-5 Formation,right,1.0,"1-5 Formation: 3, 2-4 Formation: 1"
+62183,62269,0-6 Formation,right,1.0,"0-6 Formation: 28, 1-5 Formation: 14, 2-4 Formation: 2"
+62272,62285,1-5 Formation,right,1.0,"1-5 Formation: 9, 0-6 Formation: 5"
+62288,62306,1-5 Formation,right,1.0,"1-5 Formation: 16, 2-4 Formation: 3"
+62588,62588,2-4 Formation,left,1.0,2-4 Formation: 1
+62630,62630,1-5 Formation,left,1.0,1-5 Formation: 1
+62757,62930,0-6 Formation,right,1.0,"0-6 Formation: 73, 1-5 Formation: 8, 2-4 Formation: 17, 3-3 Formation: 6, Unknown Formation: 5"
+63021,63022,0-6 Formation,left,1.0,0-6 Formation: 2
+63027,63028,0-6 Formation,left,1.0,0-6 Formation: 2
+63031,63032,0-6 Formation,left,1.0,0-6 Formation: 2
+63035,63156,2-4 Formation,left,1.0,"0-6 Formation: 3, 3-3 Formation: 11, Unknown Formation: 6, 2-4 Formation: 19, 1-5 Formation: 5"
+63397,63398,2-4 Formation,right,1.0,2-4 Formation: 1
+63401,63403,2-4 Formation,right,1.0,2-4 Formation: 3
+63406,63414,1-5 Formation,right,1.0,"1-5 Formation: 6, 2-4 Formation: 2, 0-6 Formation: 1"
+63481,64095,0-6 Formation,left,1.0,"0-6 Formation: 303, 1-5 Formation: 89, 2-4 Formation: 136, 3-3 Formation: 65, Unknown Formation: 20"
+64096,64096,1-5 Formation,right,1.0,1-5 Formation: 1
+64097,64100,2-4 Formation,left,1.0,2-4 Formation: 4
+64101,64101,1-5 Formation,right,1.0,1-5 Formation: 1
+64119,64201,2-4 Formation,left,1.0,"3-3 Formation: 12, Unknown Formation: 3, 2-4 Formation: 27, 1-5 Formation: 11"
+64443,64794,0-6 Formation,right,1.0,"0-6 Formation: 220, 1-5 Formation: 57, 2-4 Formation: 20"
+64917,65264,1-5 Formation,right,1.0,"0-6 Formation: 29, 1-5 Formation: 50, 2-4 Formation: 38"
+65463,65471,0-6 Formation,right,1.0,"0-6 Formation: 8, 1-5 Formation: 1"
+65474,65506,0-6 Formation,right,1.0,"0-6 Formation: 9, 1-5 Formation: 2"
+65719,65719,0-6 Formation,left,1.0,0-6 Formation: 1
+65720,65720,0-6 Formation,right,1.0,0-6 Formation: 1
+65721,65727,0-6 Formation,left,1.0,0-6 Formation: 2
+65728,65728,0-6 Formation,right,1.0,0-6 Formation: 1
+65729,65735,0-6 Formation,left,1.0,0-6 Formation: 7
+65736,65737,0-6 Formation,right,1.0,0-6 Formation: 2
+65738,65739,0-6 Formation,left,1.0,0-6 Formation: 2
+65740,65740,0-6 Formation,right,1.0,0-6 Formation: 1
+65741,66139,0-6 Formation,left,1.0,"0-6 Formation: 175, 1-5 Formation: 134, 2-4 Formation: 20, 3-3 Formation: 20, Unknown Formation: 29"
+66140,66140,2-4 Formation,right,1.0,2-4 Formation: 1
+66141,66150,0-6 Formation,left,1.0,0-6 Formation: 10
+66151,66154,2-4 Formation,right,1.0,2-4 Formation: 4
+66155,66155,0-6 Formation,left,1.0,0-6 Formation: 1
+66156,66157,2-4 Formation,right,1.0,2-4 Formation: 2
+66158,66158,0-6 Formation,left,1.0,0-6 Formation: 1
+66159,66161,1-5 Formation,right,1.0,1-5 Formation: 3
+66162,66165,0-6 Formation,left,1.0,0-6 Formation: 4
+66166,66168,1-5 Formation,right,1.0,"1-5 Formation: 2, 2-4 Formation: 1"
+66169,66171,0-6 Formation,left,1.0,0-6 Formation: 3
+66172,66172,3-3 Formation,right,1.0,3-3 Formation: 1
+66173,66173,0-6 Formation,left,1.0,0-6 Formation: 1
+66174,66174,2-4 Formation,right,1.0,2-4 Formation: 1
+66175,66175,0-6 Formation,left,1.0,0-6 Formation: 1
+66176,66177,2-4 Formation,right,1.0,2-4 Formation: 2
+66178,66178,0-6 Formation,left,1.0,0-6 Formation: 1
+66179,66179,1-5 Formation,right,1.0,1-5 Formation: 1
+66180,66184,0-6 Formation,left,1.0,0-6 Formation: 5
+66185,66191,1-5 Formation,right,1.0,"2-4 Formation: 2, 1-5 Formation: 5"
+66192,66201,0-6 Formation,left,1.0,0-6 Formation: 8
+66535,66535,0-6 Formation,left,1.0,0-6 Formation: 1
+66538,66596,0-6 Formation,left,1.0,0-6 Formation: 59
+66599,66650,0-6 Formation,left,1.0,0-6 Formation: 52
+66653,67009,0-6 Formation,left,1.0,"0-6 Formation: 205, 1-5 Formation: 13, 3-3 Formation: 34, 2-4 Formation: 29, Unknown Formation: 20"
+67274,67334,3-3 Formation,left,1.0,"1-5 Formation: 2, 3-3 Formation: 42"
+67590,68033,1-5 Formation,left,1.0,"1-5 Formation: 99, 2-4 Formation: 31"
+68137,68157,0-6 Formation,right,1.0,0-6 Formation: 4
+68160,68279,0-6 Formation,right,1.0,"0-6 Formation: 118, 1-5 Formation: 2"
+68341,68342,0-6 Formation,right,1.0,0-6 Formation: 1
+68345,68364,0-6 Formation,right,1.0,0-6 Formation: 7
+68368,68386,0-6 Formation,right,1.0,"0-6 Formation: 3, 1-5 Formation: 2"
+68389,68400,0-6 Formation,right,1.0,"1-5 Formation: 3, 0-6 Formation: 6"
+68412,69147,1-5 Formation,right,1.0,"0-6 Formation: 194, 1-5 Formation: 520, 3-3 Formation: 1, 2-4 Formation: 19"
+69150,69334,1-5 Formation,right,1.0,"1-5 Formation: 98, 0-6 Formation: 62, 2-4 Formation: 22"
+69399,69594,2-4 Formation,right,1.0,"2-4 Formation: 73, 1-5 Formation: 68, 0-6 Formation: 38, 3-3 Formation: 1, Unknown Formation: 6"
+69891,70203,0-6 Formation,left,1.0,0-6 Formation: 115

@@ -37,10 +37,16 @@ for _, row in manual_df.iterrows():
         (result_df['終了フレーム'] >= manual_start) & (result_df['開始フレーム'] <= manual_end)
     ].copy()
 
+    # if not overlap.empty:
+    #     best_formation = overlap.loc[overlap['信頼度'].astype(float).idxmax()]['フォーメーション']
+    # else:
+    #     best_formation = 'Unknown'  
+
     if not overlap.empty:
-        best_formation = overlap.loc[overlap['信頼度'].astype(float).idxmax()]['フォーメーション']
+        # 出現回数が最も多いフォーメーションを選択
+        best_formation = overlap['フォーメーション'].value_counts().idxmax()
     else:
-        best_formation = 'Unknown'  # または 'Unknown' など
+        best_formation = 'Unknown'
 
     formations.append(best_formation)
 

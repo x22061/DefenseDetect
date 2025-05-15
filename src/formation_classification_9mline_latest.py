@@ -40,8 +40,9 @@ class FormationClassifier:
         # チームごとのオフセット
         self.RED_X_OFFSET = 0.1
         self.RED_Y_OFFSET = -0.1
-        self.WHITE_X_OFFSET = 0.05
+        self.WHITE_X_OFFSET = 0.06
         self.WHITE_Y_OFFSET = 0.0
+
 
         # CSVファイルを読み込み、フレームごとにオフセットを適用した選手位置をまとめる
         with open(self.csv_file, 'r') as file:
@@ -86,15 +87,15 @@ class FormationClassifier:
                     red_count += 1
 
             if red_count == 1:
-                formation = "1-5 Formation"
+                formation = "1--5"
             elif red_count == 0:
-                formation = "0-6 Formation"
+                formation = "0--6"
             elif red_count == 2:
-                formation = "2-4 Formation"
+                formation = "2--4"
             elif red_count == 3:
-                formation = "3-3 Formation"
+                formation = "3--3"
             else:
-                formation = "Unknown Formation"
+                formation = "Unknown"
 
             confidence = 1.0
             classified.append((frame_num, direction, formation, confidence))
@@ -119,27 +120,28 @@ class FormationClassifier:
                 defender_team = 'red' if direction == 'right' else 'white'
 
                 # フェーズ開始探し
+                found_valid_start = False
                 while i < len(all_frames):
-                    (start_frame, dir_check), players = all_frames[i]
-                    # フェーズの方向が変わったら終了
+                    (start_frame_candidate, dir_check), players = all_frames[i]
                     if dir_check != direction:
                         break
-                    # 6人以上の防御選手が9mラインの外側にいるか確認
                     defenders = [(x, y, pid) for x, y, team, pid in players if team == defender_team]
                     if len(defenders) >= 6:
+                        found_valid_start = True
                         break
                     i += 1
 
-                if i >= len(all_frames):
-                    break
+                if not found_valid_start:
+                    continue  # 有効な開始フレームが見つからなければスキップ
 
                 start_frame = all_frames[i][0][0]
+
                 defenders = [(x, y, pid) for x, y, team, pid in players if team == defender_team]
                 # 9mラインの外側にいる選手を取得
                 outer_defenders = [
                     pid for x, y, pid in defenders
-                    if ((direction == 'right' and 0.4 < x < 0.55) or
-                        (direction == 'left' and 0.45 < x < 0.6)) and (0.2 < y < 0.8)
+                    if (direction == 'right' and (0.4 < x < 0.55) and (0.2 < y < 0.8)) or
+                    (direction == 'left' and (0.45 < x < 0.6) and (0.2 < y < 0.8))
                 ]
 
                 # フェーズ終了探し
@@ -159,20 +161,49 @@ class FormationClassifier:
                     }
 
                     someone_returned = False
-                    # 9mラインの外側にいる選手を取得
+                    # outer_defenders のうち戻った選手がいるか確認
+                    returned_pids = set()
                     for pid in outer_defenders:
                         for p, x, y in next_defenders:
-                            # 9mラインの外側にいる選手が戻ったか確認
                             if p == pid:
-                                if direction == 'right' and not (x < 0.55):
-                                    someone_returned = True
-                                elif direction == 'left' and not (0.45 < x):
-                                    someone_returned = True
-                    if someone_returned:
-                        end_reason = 'outer_return'
-                        break
+                                if direction == 'right' and not (0.4 < x):
+                                    returned_pids.add(p)
+                                elif direction == 'left' and not (x < 0.6):
+                                    returned_pids.add(p)
 
-                    end_frame = next_frame
+                    if returned_pids:
+                        # 一時的な戻りか確認する
+                        temp_j = j + 1
+                        check_window = 20
+                        reentered = False
+                        while temp_j < len(all_frames) and temp_j - j <= check_window:
+                            (future_frame, future_direction), future_players = all_frames[temp_j]
+                            if future_direction != direction:
+                                break
+                            future_defenders = {
+                                (pid, x, y) for x, y, team, pid in future_players if team == defender_team
+                            }
+                            for pid in returned_pids:
+                                for p, x, y in future_defenders:
+                                    if p == pid:
+                                        if direction == 'right' and (0.4 < x < 0.55) and (0.2 < y < 0.8):
+                                            reentered = True
+                                            break
+                                        elif direction == 'left' and (0.45 < x < 0.6) and (0.2 < y < 0.8):
+                                            reentered = True
+                                            break
+                                if reentered:
+                                    break
+                            if reentered:
+                                break
+                            temp_j += 1
+
+                        if not reentered:
+                            end_reason = 'outer_return'
+                            break  # フェーズ終了とみなす
+
+
+                    end_frame = next_frame 
                     j += 1
 
                 # 保存（end_reason 付きで）

@@ -30,9 +30,9 @@ class TrajectoryViewerWithFormation:
         self.canvas = None
 
         # Define offsets as constants
-        self.RED_X_OFFSET = 0.1
+        self.RED_X_OFFSET = 0.15
         self.RED_Y_OFFSET = -0.1
-        self.WHITE_X_OFFSET = 0.05
+        self.WHITE_X_OFFSET = 0.06
         self.WHITE_Y_OFFSET = 0.0
 
         # self.RED_X_OFFSET = 0
@@ -164,33 +164,52 @@ class TrajectoryViewerWithFormation:
             white_x_offset = self.WHITE_X_OFFSET
             white_y_offset = self.WHITE_Y_OFFSET
 
-            # フレームごとに選手の位置をプロット
-            for frame in range(start_frame, current_frame + 1):
-                frame_data = df_filtered[df_filtered["frame_num"] == frame]
-                for _, person_data in frame_data.iterrows():
-                    x, y = person_data["x"], person_data["y"]
-                    team_color = person_data["team_color"]
+            # フレームごとに選手の位置をプロット(移動軌跡を描画)
+            # for frame in range(start_frame, current_frame + 1):
+            #     frame_data = df_filtered[df_filtered["frame_num"] == frame]
+            #     for _, person_data in frame_data.iterrows():
+            #         x, y = person_data["x"], person_data["y"]
+            #         team_color = person_data["team_color"]
 
-                    # Redチームの場合、座標にオフセットを適用
-                    if team_color == "red":
-                        x += x_offset
-                        y += y_offset
+            #         # Redチームの場合、座標にオフセットを適用
+            #         if team_color == "red":
+            #             x += x_offset
+            #             y += y_offset
 
-                    # Whiteチームの場合、座標にオフセットを適用
-                    if team_color == "white":
-                        x += white_x_offset
-                        y += white_y_offset
+            #         # Whiteチームの場合、座標にオフセットを適用
+            #         if team_color == "white":
+            #             x += white_x_offset
+            #             y += white_y_offset
                     
-                    # 防御選手のみを描画
-                    if (direction == "left" and team_color != "white") or (direction == "right" and team_color != "red"):
-                        continue
+            #         # 防御選手のみを描画
+            #         if (direction == "left" and team_color != "white") or (direction == "right" and team_color != "red"):
+            #             continue
 
-                    # フレームが離れるほど透明度を上げる
-                    alpha = max(0.1, 1.0 - (current_frame - frame) / (current_frame - start_frame + 1))
-                    color = "black" if frame == current_frame else "gray"
+            #         # フレームが離れるほど透明度を上げる
+            #         alpha = max(0.1, 1.0 - (current_frame - frame) / (current_frame - start_frame + 1))
+            #         color = "black" if frame == current_frame else "gray"
 
-                    # 選手の位置をプロット
-                    self.ax.scatter(x, y, color=color, alpha=alpha, s=50)
+            #         # 選手の位置をプロット
+            #         self.ax.scatter(x, y, color=color, alpha=alpha, s=50)
+
+            # 現在フレームの選手の位置だけをプロット
+            frame_data = df_filtered[df_filtered["frame_num"] == current_frame]
+            for _, person_data in frame_data.iterrows():
+                x, y = person_data["x"], person_data["y"]
+                team_color = person_data["team_color"]
+
+                if team_color == "red":
+                    x += x_offset
+                    y += y_offset
+                elif team_color == "white":
+                    x += white_x_offset
+                    y += white_y_offset
+
+                # 防御選手のみを描画
+                if (direction == "left" and team_color != "white") or (direction == "right" and team_color != "red"):
+                    continue
+
+                self.ax.scatter(x, y, color="black", alpha=1.0, s=50)
 
         self.ax.set_xlabel("X")
         self.ax.set_ylabel("Y")
